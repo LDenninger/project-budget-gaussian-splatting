@@ -75,10 +75,10 @@ goes into its own repository under `workspaces/`, and datasets go under `dataset
 
 ## 🤝 Contributing
 
-Questions go to the project supervisor, and bug reports and pull requests go to
-[LDenninger/project-budget-gaussian-splatting](https://github.com/LDenninger/project-budget-gaussian-splatting).
-Every commit carries one file and follows `.github/commit_convention.md`. Every document follows
-`.claude/rules/docs-rules.md`.
+Commit and push directly to `master` of
+[LDenninger/project-budget-gaussian-splatting](https://github.com/LDenninger/project-budget-gaussian-splatting),
+with no pull request or review. Commit messages follow `.github/commit_convention.md`, and documents
+follow `.claude/rules/docs-rules.md`.
 
 ## 📄 License
 
