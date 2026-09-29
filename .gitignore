@@ -243,3 +243,4 @@ references/**/*.pdf
 /workspaces/*
 !/workspaces/.gitkeep
 !/workspaces/ldtrain
+!/workspaces/open-splatting-viewer
