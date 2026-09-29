@@ -1,0 +1,39 @@
+{
+  "_comment": "Snapshot of the CVAI/I9 cluster node features, scraped from https://cvai.cit.tum.de/intern/system/slurm on 2026-07-25. This is a FALLBACK. The validator prefers live data from `sinfo -N -o \"%N %f\" --noheader`. Refresh with: sinfo -N -h -o \"%N %f\"",
+  "_scraped_on": "2026-07-25",
+  "_source": "https://cvai.cit.tum.de/intern/system/slurm",
+  "nodes": {
+    "node1":  ["NOTBIG", "GPU_GEN:PASCAL", "GPU_MEM:24", "GPU_CC:6.1", "CPU_MHZ:3000", "CPU_MODEL:E5-2687W", "CPU_GEN:SBEP", "GPU_MODEL:p6000", "p6000"],
+    "node2":  ["NOTBIG", "GPU_GEN:PASCAL", "GPU_MEM:12", "GPU_CC:6.1", "CPU_MHZ:2300", "CPU_MODEL:E5-2697", "CPU_GEN:SBEP", "GPU_MODEL:titan", "titan"],
+    "node4":  ["BIG", "GPU_GEN:ADA", "GPU_MEM:48", "GPU_CC:8.9", "CPU_MHZ:2300", "CPU_MODEL:E5-2697", "CPU_GEN:SBEP", "GPU_MODEL:nvidia_rtx_6000_ada_generation", "rtx_6000_ada"],
+    "node5":  ["BIG", "GPU_GEN:ADA", "GPU_MEM:48", "GPU_CC:8.9", "CPU_MHZ:2300", "CPU_MODEL:E5-2697", "CPU_GEN:SBEP", "GPU_MODEL:nvidia_rtx_6000_ada_generation", "rtx_6000_ada"],
+    "node6":  ["NOTBIG", "GPU_GEN:PASCAL", "GPU_MEM:12", "GPU_CC:6.1", "CPU_MHZ:2300", "CPU_MODEL:E5-2697", "CPU_GEN:SBEP", "GPU_MODEL:titan", "titan"],
+    "node7":  ["NOTBIG", "GPU_GEN:PASCAL", "GPU_MEM:24", "GPU_CC:6.1", "CPU_MHZ:2300", "CPU_MODEL:E5-2697", "CPU_GEN:SBEP", "GPU_MODEL:p6000", "p6000"],
+    "node8":  ["NOTBIG", "GPU_GEN:TURING", "GPU_MEM:16", "GPU_CC:7.5", "CPU_MHZ:2400", "CPU_MODEL:GO-6148", "CPU_GEN:SKYL", "GPU_MODEL:rtx_5000", "rtx_5000"],
+    "node9":  ["NOTBIG", "GPU_GEN:TURING", "GPU_MEM:24", "GPU_CC:7.5", "CPU_MHZ:2500", "CPU_MODEL:GO-6248", "CPU_GEN:CL", "GPU_MODEL:rtx_6000", "rtx_6000"],
+    "node10": ["NOTBIG", "GPU_GEN:TURING", "GPU_MEM:16", "GPU_CC:7.5", "CPU_MHZ:2500", "CPU_MODEL:GO-6248", "CPU_GEN:CL", "GPU_MODEL:rtx_5000", "rtx_5000"],
+    "node11": ["BIG", "GPU_GEN:TURING", "GPU_MEM:48", "GPU_CC:7.5", "CPU_MHZ:3100", "CPU_MODEL:GO-6254", "CPU_GEN:CL", "GPU_MODEL:rtx_8000", "rtx_8000"],
+    "node12": ["BIG", "GPU_GEN:TURING", "GPU_MEM:48", "GPU_CC:7.5", "CPU_MHZ:3100", "CPU_MODEL:GO-6254", "CPU_GEN:CL", "GPU_MODEL:rtx_8000", "rtx_8000"],
+    "node13": ["BIG", "GPU_GEN:TURING", "GPU_MEM:48", "GPU_CC:7.5", "CPU_MHZ:3100", "CPU_MODEL:GO-6254", "CPU_GEN:CL", "GPU_MODEL:rtx_8000", "rtx_8000"],
+    "node14": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.6", "CPU_MHZ:3100", "CPU_MODEL:GO-6254", "CPU_GEN:CL", "GPU_MODEL:rtx_a6000", "rtx_a6000"],
+    "node15": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.6", "CPU_MHZ:3000", "CPU_MODEL:GO-6248R", "CPU_GEN:CL", "GPU_MODEL:a40", "a40"],
+    "node16": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.6", "CPU_MHZ:3000", "CPU_MODEL:GO-6248R", "CPU_GEN:CL", "GPU_MODEL:a40", "a40"],
+    "node17": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.6", "CPU_MHZ:3000", "CPU_MODEL:GO-6248R", "CPU_GEN:CL", "GPU_MODEL:a40", "a40"],
+    "node18": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.6", "CPU_MHZ:3000", "CPU_MODEL:GO-6248R", "CPU_GEN:CL", "GPU_MODEL:a40", "a40"],
+    "node19": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.9", "CPU_MHZ:2100", "CPU_MODEL:GO-6530", "CPU_GEN:CL", "GPU_MODEL:nvidia_l40s", "nvidia_l40s"],
+    "node20": ["BIG", "GPU_GEN:AMPERE", "GPU_MEM:48", "GPU_CC:8.9", "CPU_MHZ:2100", "CPU_MODEL:GO-6530", "CPU_GEN:CL", "GPU_MODEL:nvidia_l40s", "nvidia_l40s"],
+    "node21": ["BIG", "GPU_GEN:HOPPER", "GPU_MEM:96", "GPU_CC:9.0", "CPU_MHZ:2200", "CPU_MODEL:GO-6554", "CPU_GEN:ER", "GPU_MODEL:nvidia_h100", "nvidia_h100"],
+    "node22": ["BIG", "GPU_GEN:BLACKWELL", "GPU_MEM:96", "GPU_CC:12.0", "CPU_MHZ:3200", "CPU_MODEL:TU-9555", "CPU_GEN:EPYC", "GPU_MODEL:nvidia_rtx_pro_6000_blackwell_server_edition", "pro_6000"]
+  },
+  "tier_limits": {
+    "_comment": "MaxTRESPA = per account, MaxTRESPU = per user, MaxJobsPU = per user. These change often; the validator prefers `sacctmgr show assoc` when available.",
+    "external": {"priority": 0,  "max_gpu_per_account": 10,  "max_cpu_per_account": 20,  "max_mem_per_account_gb": 128, "max_gpu_per_user": 2,  "max_jobs_per_user": 5,  "max_jobs_per_account": 75},
+    "stud":     {"priority": 5,  "max_gpu_per_account": 95,  "max_cpu_per_account": 100, "max_mem_per_account_gb": 512, "max_gpu_per_user": 9,  "max_jobs_per_user": 15, "max_jobs_per_account": 95},
+    "wiss":     {"priority": 10, "max_gpu_per_account": 135, "max_cpu_per_account": 200, "max_mem_per_account_gb": null, "max_gpu_per_user": 18, "max_jobs_per_user": 30, "max_jobs_per_account": null}
+  },
+  "partitions": {
+    "NORMAL": {"preempts": [], "preempted_by": ["DEADLINE", "DEADLINEBIG"], "requires_comment": false, "note": "Default partition."},
+    "DEADLINE": {"preempts": ["NORMAL"], "preempted_by": ["DEADLINEBIG"], "requires_comment": true, "note": "All nodes. Add --constraint=NOTBIG to avoid being preempted by DEADLINEBIG."},
+    "DEADLINEBIG": {"preempts": ["DEADLINE", "NORMAL"], "preempted_by": [], "requires_comment": true, "note": "Only 48G-VRAM nodes."}
+  }
+}

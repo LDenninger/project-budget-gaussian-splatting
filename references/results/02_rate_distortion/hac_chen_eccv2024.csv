@@ -1,0 +1,274 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+hac_chen_eccv2024,2403.14530,Table 1,11,main,3DGS,3DGS,NeRF Synthetic,average,33.8,0.97,0.031,68.46,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Scaffold-GS,Scaffold-GS,NeRF Synthetic,average,33.41,0.966,0.035,19.36,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Lee et al. (Compact 3DGS),3DGS,NeRF Synthetic,average,33.33,0.968,0.034,5.54,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Compressed3D,3DGS,NeRF Synthetic,average,32.94,0.967,0.033,3.68,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,EAGLES,3DGS,NeRF Synthetic,average,32.54,0.965,0.039,5.74,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,LightGaussian,3DGS,NeRF Synthetic,average,32.73,0.965,0.037,7.84,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,NeRF Synthetic,average,31.05,0.955,0.047,2.2,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Navaneet et al. (Compact3D),3DGS,NeRF Synthetic,average,33.09,0.967,0.036,4.42,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-lowrate,Scaffold-GS,NeRF Synthetic,average,33.24,0.967,0.037,1.18,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; on NeRF Synthetic low-rate is lambda_e=0.002 and high-rate is lambda_e=0.0005, unlike the other datasets where they are 0.004 and 0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-highrate,Scaffold-GS,NeRF Synthetic,average,33.71,0.968,0.034,1.86,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; on NeRF Synthetic low-rate is lambda_e=0.002 and high-rate is lambda_e=0.0005, unlike the other datasets where they are 0.004 and 0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,3DGS,3DGS,Mip-NeRF 360,average,27.49,0.813,0.222,744.7,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.9,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Lee et al. (Compact 3DGS),3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,48.8,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Compressed3D,3DGS,Mip-NeRF 360,average,26.98,0.801,0.238,28.8,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,EAGLES,3DGS,Mip-NeRF 360,average,27.15,0.808,0.238,68.89,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.0,0.799,0.249,44.54,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Mip-NeRF 360,average,26.01,0.772,0.259,23.9,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Navaneet et al. (Compact3D),3DGS,Mip-NeRF 360,average,27.16,0.808,0.228,50.3,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-lowrate,Scaffold-GS,Mip-NeRF 360,average,27.53,0.807,0.238,15.26,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-highrate,Scaffold-GS,Mip-NeRF 360,average,27.77,0.811,0.23,21.87,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,3DGS,3DGS,Tanks and Temples,average,23.69,0.844,0.178,431.0,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Lee et al. (Compact 3DGS),3DGS,Tanks and Temples,average,23.32,0.831,0.201,39.43,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Compressed3D,3DGS,Tanks and Temples,average,23.32,0.832,0.194,17.28,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,EAGLES,3DGS,Tanks and Temples,average,23.41,0.84,0.2,34.0,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,LightGaussian,3DGS,Tanks and Temples,average,22.83,0.822,0.242,22.43,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Tanks and Temples,average,22.78,0.817,0.211,13.05,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Navaneet et al. (Compact3D),3DGS,Tanks and Temples,average,23.47,0.84,0.188,27.97,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-lowrate,Scaffold-GS,Tanks and Temples,average,24.04,0.846,0.187,8.1,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-highrate,Scaffold-GS,Tanks and Temples,average,24.4,0.853,0.177,11.24,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,3DGS,3DGS,Deep Blending,average,29.42,0.899,0.247,663.9,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Lee et al. (Compact 3DGS),3DGS,Deep Blending,average,29.79,0.901,0.258,43.21,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Compressed3D,3DGS,Deep Blending,average,29.38,0.898,0.253,25.3,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,EAGLES,3DGS,Deep Blending,average,29.91,0.91,0.25,62.0,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,LightGaussian,3DGS,Deep Blending,average,27.01,0.872,0.308,33.94,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Deep Blending,average,28.92,0.891,0.276,8.4,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Navaneet et al. (Compact3D),3DGS,Deep Blending,average,29.75,0.903,0.247,42.77,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-lowrate,Scaffold-GS,Deep Blending,average,29.98,0.902,0.269,4.35,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-highrate,Scaffold-GS,Deep Blending,average,30.34,0.906,0.258,6.35,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,3DGS,3DGS,BungeeNeRF,average,24.87,0.841,0.205,1616,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Scaffold-GS,Scaffold-GS,BungeeNeRF,average,26.62,0.865,0.241,183.0,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Lee et al. (Compact 3DGS),3DGS,BungeeNeRF,average,23.36,0.788,0.251,82.6,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Compressed3D,3DGS,BungeeNeRF,average,24.13,0.802,0.245,55.79,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,EAGLES,3DGS,BungeeNeRF,average,25.24,0.843,0.221,117.1,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,LightGaussian,3DGS,BungeeNeRF,average,24.52,0.825,0.255,87.28,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,Navaneet et al. (Compact3D),3DGS,BungeeNeRF,average,24.63,0.823,0.239,104.3,MB,,,,,,,HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-lowrate,Scaffold-GS,BungeeNeRF,average,26.48,0.845,0.25,18.49,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table 1,11,main,HAC-highrate,Scaffold-GS,BungeeNeRF,average,27.08,0.872,0.209,29.72,MB,,,,,,,"HAC low-rate / high-rate are two points of the lambda_e rate-distortion sweep; low-rate is lambda_e=0.004, high-rate is lambda_e=0.001"
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,chair,34.02,0.981,0.018,0.82,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,drums,26.2,0.95,0.044,1.23,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ficus,34.27,0.983,0.016,0.71,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,hotdog,36.44,0.979,0.033,0.51,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,lego,34.25,0.976,0.027,0.97,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,materials,30.2,0.959,0.045,1.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,mic,35.39,0.989,0.011,0.55,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ship,31.24,0.902,0.124,1.82,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,average,32.75,0.965,0.04,0.96,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,chair,34.33,0.982,0.017,0.89,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,drums,26.26,0.951,0.043,1.42,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ficus,34.57,0.984,0.015,0.82,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,hotdog,36.7,0.98,0.031,0.54,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,lego,34.65,0.977,0.024,1.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,materials,30.29,0.96,0.043,1.2,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,mic,35.62,0.99,0.01,0.62,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ship,31.32,0.903,0.121,1.86,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,average,32.97,0.966,0.038,1.05,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,chair,34.73,0.984,0.016,1.03,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,drums,26.32,0.952,0.043,1.45,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ficus,34.9,0.985,0.014,0.94,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,hotdog,37.11,0.981,0.029,0.64,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,lego,35.04,0.979,0.022,1.25,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,materials,30.53,0.961,0.041,1.45,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,mic,35.92,0.99,0.01,0.67,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ship,31.38,0.903,0.119,1.99,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,average,33.24,0.967,0.037,1.18,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,chair,35.21,0.985,0.014,1.32,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,drums,26.38,0.952,0.041,1.95,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ficus,35.37,0.986,0.013,1.2,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,hotdog,37.47,0.983,0.026,0.79,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,lego,35.51,0.981,0.019,1.61,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,materials,30.58,0.961,0.04,1.62,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,mic,36.25,0.991,0.009,0.81,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ship,31.48,0.904,0.116,2.5,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,average,33.53,0.968,0.035,1.47,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,chair,35.49,0.986,0.013,1.67,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,drums,26.45,0.952,0.041,2.32,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ficus,35.3,0.986,0.013,1.53,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,hotdog,37.87,0.984,0.024,0.97,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,lego,35.67,0.981,0.019,1.9,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,materials,30.7,0.962,0.039,2.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,mic,36.71,0.992,0.008,1.01,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,ship,31.52,0.904,0.115,3.39,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table B,20,supplement,HAC,Scaffold-GS,NeRF Synthetic,average,33.71,0.968,0.034,1.86,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.05,0.742,0.264,27.54,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.28,0.842,0.151,22.69,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.58,0.762,0.269,18.11,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.55,0.921,0.208,5.53,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.35,0.911,0.195,7.26,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.16,0.923,0.131,8.05,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.28,0.942,0.189,8.56,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.26,0.572,0.381,19.59,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.3,0.645,0.356,20.04,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.53,0.807,0.238,15.26,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.05,0.742,0.261,30.02,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.36,0.844,0.148,24.62,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.64,0.763,0.265,19.85,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.71,0.922,0.206,5.72,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.54,0.913,0.191,7.93,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.22,0.925,0.128,8.84,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.5,0.944,0.186,9.4,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.26,0.571,0.383,20.67,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.26,0.645,0.356,22.08,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.62,0.808,0.236,16.57,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.1,0.742,0.262,33.14,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.43,0.847,0.143,27.52,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.59,0.761,0.268,21.75,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.87,0.925,0.201,6.47,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.65,0.915,0.189,8.88,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.46,0.928,0.125,10.05,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.7,0.945,0.184,10.51,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.32,0.576,0.377,23.73,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.34,0.647,0.35,24.83,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.72,0.809,0.233,18.54,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.11,0.742,0.259,39.15,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.46,0.849,0.139,32.17,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.59,0.763,0.264,25.26,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.9,0.926,0.198,7.85,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.74,0.918,0.184,10.44,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.63,0.93,0.122,12.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.97,0.948,0.18,12.72,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.27,0.575,0.377,27.55,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.26,0.648,0.345,29.65,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.77,0.811,0.23,21.87,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.05,0.742,0.258,44.01,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.5,0.85,0.139,36.27,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.57,0.762,0.264,28.93,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,32.19,0.929,0.194,9.16,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.75,0.918,0.185,12.22,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.81,0.931,0.12,13.96,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,33.16,0.949,0.178,14.9,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.28,0.575,0.376,31.24,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.22,0.646,0.346,34.42,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table C,22,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.83,0.811,0.229,25.01,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.88,0.878,0.158,9.26,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.19,0.815,0.216,6.94,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.04,0.846,0.187,8.1,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.99,0.88,0.153,9.8,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.49,0.817,0.213,7.59,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.24,0.849,0.183,8.7,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.99,0.881,0.153,11.15,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.66,0.819,0.21,8.64,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.33,0.85,0.181,9.9,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,26.02,0.883,0.147,12.42,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.78,0.823,0.207,10.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.4,0.853,0.177,11.24,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,26.0,0.883,0.146,15.12,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.49,0.823,0.206,11.19,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table D,23,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.25,0.853,0.176,13.16,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.44,0.902,0.272,3.15,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.53,0.903,0.265,5.55,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,average,29.98,0.902,0.269,4.35,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.61,0.903,0.269,3.66,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.67,0.904,0.261,5.71,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,average,30.14,0.903,0.265,4.69,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.66,0.905,0.265,4.12,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.69,0.905,0.258,6.51,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,average,30.17,0.905,0.262,5.32,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.84,0.906,0.262,5.03,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.85,0.906,0.255,7.67,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,average,30.34,0.906,0.258,6.35,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.66,0.906,0.259,6.08,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.76,0.906,0.255,9.09,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table E,23,supplement,HAC,Scaffold-GS,Deep Blending,average,30.21,0.906,0.257,7.58,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,26.8,0.865,0.224,22.49,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.65,0.864,0.231,17.14,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.25,0.748,0.347,16.55,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.16,0.829,0.266,20.4,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.33,0.918,0.192,15.06,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,25.68,0.845,0.243,19.3,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.48,0.845,0.25,18.49,MB,,,,,,,rate-distortion sweep point lambda_e=0.004
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,26.95,0.873,0.214,24.41,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.82,0.872,0.218,18.76,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.27,0.753,0.342,17.87,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.34,0.837,0.255,22.49,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.67,0.924,0.185,16.15,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,25.98,0.855,0.231,20.83,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.67,0.852,0.241,20.08,MB,,,,,,,rate-distortion sweep point lambda_e=0.003
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,27.13,0.88,0.202,27.14,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,28.02,0.88,0.205,20.91,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.43,0.763,0.33,20.09,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.27,0.842,0.249,24.85,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.98,0.929,0.175,17.9,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,26.28,0.866,0.219,23.07,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.85,0.86,0.23,22.33,MB,,,,,,,rate-distortion sweep point lambda_e=0.002
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,27.25,0.886,0.19,31.84,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.98,0.886,0.19,24.38,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.59,0.772,0.319,23.41,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.58,0.851,0.236,29.19,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,30.3,0.934,0.163,21.23,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,26.61,0.876,0.203,26.91,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,average,27.05,0.868,0.217,26.16,MB,,,,,,,rate-distortion sweep point lambda_e=0.001
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,27.24,0.891,0.18,36.31,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,28.09,0.891,0.181,27.72,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.6,0.778,0.313,26.0,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.6,0.853,0.231,33.55,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,30.19,0.936,0.155,24.56,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,26.73,0.881,0.194,30.21,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table F,24,supplement,HAC,Scaffold-GS,BungeeNeRF,average,27.08,0.872,0.209,29.72,MB,,,,,,,rate-distortion sweep point lambda_e=0.0005
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,chair,35.65,0.988,0.01,115.77,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,drums,26.28,0.955,0.037,92.87,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,ficus,35.48,0.987,0.012,64.53,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,hotdog,38.05,0.985,0.02,43.37,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,lego,35.98,0.982,0.017,80.53,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,materials,30.48,0.96,0.037,38.5,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,mic,36.76,0.993,0.006,48.31,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,ship,31.73,0.907,0.107,63.82,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,NeRF Synthetic,average,33.8,0.97,0.031,68.46,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.11,0.746,0.245,1336.45,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,garden,27.3,0.856,0.122,1327.99,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,stump,26.66,0.77,0.242,1070.92,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,room,31.74,0.926,0.197,353.1,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,counter,29.07,0.914,0.184,277.39,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,kitchen,31.47,0.931,0.117,414.33,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.12,0.946,0.181,295.33,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,flowers,21.36,0.588,0.36,814.24,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,treehill,22.62,0.636,0.347,812.63,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Mip-NeRF 360,average,27.49,0.813,0.222,744.71,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Tanks and Temples,truck,25.38,0.877,0.148,606.99,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Tanks and Temples,train,22.0,0.811,0.208,254.91,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Tanks and Temples,average,23.69,0.844,0.178,430.95,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Deep Blending,playroom,29.83,0.9,0.247,551.93,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Deep Blending,drjohnson,29.02,0.898,0.247,775.91,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,Deep Blending,average,29.42,0.899,0.247,663.92,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,amsterdam,26.03,0.874,0.17,1458.14,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,bilbao,26.35,0.864,0.191,1350.37,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,hollywood,23.44,0.767,0.241,1601.76,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,pompidou,21.2,0.772,0.266,2169.21,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,quebec,28.83,0.923,0.156,1468.76,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,rome,23.34,0.848,0.206,1649.12,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table G,25,supplement,3DGS,3DGS,BungeeNeRF,average,24.87,0.841,0.205,1616.23,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,chair,34.96,0.985,0.013,15.5,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,drums,26.36,0.949,0.045,26.93,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,ficus,34.66,0.984,0.015,16.46,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,hotdog,37.82,0.984,0.022,11.31,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,lego,35.48,0.981,0.018,19.84,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,materials,30.37,0.958,0.043,23.12,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,mic,36.37,0.991,0.008,14.83,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,ship,31.27,0.896,0.119,26.9,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,NeRF Synthetic,average,33.41,0.966,0.035,19.36,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,bicycle,24.5,0.705,0.306,248.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,garden,27.17,0.842,0.146,271.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,stump,26.27,0.784,0.284,493.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,room,31.93,0.925,0.202,133.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,counter,29.34,0.914,0.191,194.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,kitchen,31.3,0.928,0.126,173.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,bonsai,32.7,0.946,0.185,258.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,flowers,21.14,0.566,0.417,253.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,treehill,23.19,0.642,0.41,262.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.89,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,truck,25.77,0.883,0.147,107.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,train,22.15,0.822,0.206,66.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,playroom,30.62,0.904,0.258,63.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,drjohnson,29.8,0.907,0.25,69.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,amsterdam,27.16,0.898,0.188,223.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,bilbao,26.6,0.857,0.257,178.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,hollywood,24.49,0.787,0.318,155.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,pompidou,24.94,0.839,0.271,209.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,quebec,30.28,0.936,0.19,159.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,rome,26.23,0.873,0.225,174.0,MB,,,,,,,baseline re-run by the HAC authors
+hac_chen_eccv2024,2403.14530,Table H,26,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,average,26.62,0.865,0.241,183.0,MB,,,,,,,baseline re-run by the HAC authors

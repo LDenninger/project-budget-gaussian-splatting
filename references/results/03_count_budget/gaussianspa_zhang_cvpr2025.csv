@@ -1,0 +1,81 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,3DGS,3DGS,Mip-NeRF 360,average,27.45,0.81,0.22,,,3110000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,3DGS,3DGS,Tanks and Temples,average,23.63,0.85,0.18,,,1830000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,3DGS,3DGS,Deep Blending,average,29.42,0.9,0.25,,,2780000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Compact 3DGS (CompactGaussian),3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,,,1388000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Compact 3DGS (CompactGaussian),3DGS,Tanks and Temples,average,23.32,0.831,0.201,,,836000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Compact 3DGS (CompactGaussian),3DGS,Deep Blending,average,29.79,0.901,0.258,,,1060000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,LP-3DGS-R,3DGS,Mip-NeRF 360,average,27.47,0.812,0.227,,,1959000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,LP-3DGS-R,3DGS,Tanks and Temples,average,23.6,0.842,0.188,,,1244000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,LP-3DGS-M,3DGS,Mip-NeRF 360,average,27.12,0.805,0.239,,,1866000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,LP-3DGS-M,3DGS,Tanks and Temples,average,23.41,0.834,0.198,,,1116000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,EAGLES,3DGS,Mip-NeRF 360,average,27.23,0.809,0.238,,,1330000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,EAGLES,3DGS,Tanks and Temples,average,23.37,0.84,0.2,,,650000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,EAGLES,3DGS,Deep Blending,average,29.86,0.91,0.25,,,1190000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Mini-Splatting,3DGS,Mip-NeRF 360,average,27.4,0.821,0.219,,,559000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Mini-Splatting,3DGS,Tanks and Temples,average,23.45,0.841,0.186,,,319000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Mini-Splatting,3DGS,Deep Blending,average,30.05,0.909,0.254,,,397000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Taming 3DGS,3DGS,Mip-NeRF 360,average,27.31,0.801,0.252,,,630000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Taming 3DGS,3DGS,Tanks and Temples,average,23.95,0.837,0.201,,,290000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,Taming 3DGS,3DGS,Deep Blending,average,29.82,0.904,0.26,,,270000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,CompGS (Navaneet et al.),3DGS,Mip-NeRF 360,average,27.12,0.806,0.24,,,845000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,CompGS (Navaneet et al.),3DGS,Tanks and Temples,average,23.44,0.838,0.198,,,520000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,CompGS (Navaneet et al.),3DGS,Deep Blending,average,29.9,0.907,0.251,,,550000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,GaussianSpa,3DGS,Mip-NeRF 360,average,27.85,0.825,0.214,,,547000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,GaussianSpa,3DGS,Tanks and Temples,average,23.98,0.852,0.18,,,269000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,GaussianSpa,3DGS,Deep Blending,average,30.37,0.914,0.249,,,335000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 1,6,main,GaussianSpa (smaller budget),3DGS,Deep Blending,average,30.33,0.912,0.254,,,256000,,,,,,"""#G/M"" is the Gaussian count in millions; no MB column. 3DGS numbers are quoted from EAGLES; Mini-Splatting is replicated with official code by the GaussianSpa authors"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 2,11,main,EfficientGS,3DGS,Mip-NeRF 360,average,27.38,0.817,0.216,98,MB,,,,,,,GaussianSpa's storage uses LightGaussian's add-on SH distillation and vector quantization; the count budget alone does not produce a byte figure
+gaussianspa_zhang_cvpr2025,2411.06019,Table 2,11,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.28,0.805,0.243,42,MB,,,,,,,GaussianSpa's storage uses LightGaussian's add-on SH distillation and vector quantization; the count budget alone does not produce a byte figure
+gaussianspa_zhang_cvpr2025,2411.06019,Table 2,11,main,GaussianSpa,3DGS,Mip-NeRF 360,average,27.85,0.825,0.214,25,MB,,,,,,,GaussianSpa's storage uses LightGaussian's add-on SH distillation and vector quantization; the count budget alone does not produce a byte figure
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.13,0.75,0.24,,,5310000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,bicycle,25.21,0.76,0.247,,,646000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,bicycle,25.44,0.769,0.246,,,656000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.19,0.95,0.18,,,1250000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,bonsai,31.73,0.945,0.18,,,360000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,bonsai,32.4,0.947,0.174,,,372000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,counter,29.11,0.91,0.18,,,1170000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,counter,28.53,0.911,0.184,,,408000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,counter,29.23,0.919,0.176,,,392000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,flowers,21.37,0.59,0.36,,,3470000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,flowers,21.42,0.616,0.336,,,670000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,flowers,21.75,0.61,0.329,,,674000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,garden,27.32,0.86,0.12,,,5690000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,garden,26.99,0.842,0.156,,,738000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,garden,27.26,0.848,0.151,,,728000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,kitchen,31.53,0.93,0.12,,,1770000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,kitchen,31.24,0.929,0.122,,,438000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,kitchen,32.03,0.934,0.117,,,423000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,room,31.59,0.92,0.2,,,1500000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,room,31.44,0.929,0.193,,,394000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,room,32.04,0.933,0.188,,,355000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,stump,26.73,0.77,0.24,,,4420000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,stump,27.35,0.803,0.219,,,717000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,stump,27.56,0.808,0.218,,,690000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,treehill,22.61,0.64,0.35,,,3420000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,treehill,22.69,0.652,0.332,,,663000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,treehill,22.94,0.66,0.329,,,637000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,3DGS,3DGS,Mip-NeRF 360,average,27.45,0.81,0.22,,,3110000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,Mini-Splatting,3DGS,Mip-NeRF 360,average,27.4,0.821,0.219,,,559000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 3,11,supplement,GaussianSpa,3DGS,Mip-NeRF 360,average,27.85,0.825,0.214,,,547000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,3DGS,3DGS,Tanks and Temples,train,21.94,0.81,0.2,,,1110000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,Mini-Splatting,3DGS,Tanks and Temples,train,21.78,0.805,0.231,,,287000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,GaussianSpa,3DGS,Tanks and Temples,train,22.17,0.815,0.228,,,199000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,3DGS,3DGS,Tanks and Temples,truck,25.31,0.88,0.15,,,2540000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,Mini-Splatting,3DGS,Tanks and Temples,truck,25.13,0.878,0.141,,,352000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,GaussianSpa,3DGS,Tanks and Temples,truck,25.79,0.888,0.132,,,338000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,3DGS,3DGS,Tanks and Temples,average,23.63,0.85,0.18,,,1830000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,Mini-Splatting,3DGS,Tanks and Temples,average,23.45,0.841,0.186,,,319000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 4,14,supplement,GaussianSpa,3DGS,Tanks and Temples,average,23.98,0.852,0.18,,,269000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,3DGS,3DGS,Deep Blending,drjohnson,28.77,0.9,0.25,,,3260000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,Mini-Splatting,3DGS,Deep Blending,drjohnson,29.37,0.904,0.261,,,377000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa,3DGS,Deep Blending,drjohnson,29.89,0.913,0.243,,,450000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa (smaller budget),3DGS,Deep Blending,drjohnson,29.82,0.909,0.254,,,293000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,3DGS,3DGS,Deep Blending,playroom,30.07,0.9,0.25,,,2290000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,Mini-Splatting,3DGS,Deep Blending,playroom,30.72,0.914,0.248,,,417000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa,3DGS,Deep Blending,playroom,30.84,0.916,0.254,,,219000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa (smaller budget),3DGS,Deep Blending,playroom,30.84,0.916,0.254,,,219000,,,,,,"the PDF prints the two GaussianSpa playroom rows with identical values; the two Deep Blending averages (0.335 M and 0.256 M) imply the two playroom points differ by about 0.001 M, so the duplication is plausible rather than an extraction error"
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,3DGS,3DGS,Deep Blending,average,29.42,0.9,0.25,,,2780000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,Mini-Splatting,3DGS,Deep Blending,average,30.05,0.909,0.254,,,397000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa,3DGS,Deep Blending,average,30.37,0.914,0.249,,,335000,,,,,,
+gaussianspa_zhang_cvpr2025,2411.06019,Table 5,14,supplement,GaussianSpa (smaller budget),3DGS,Deep Blending,average,30.33,0.912,0.254,,,256000,,,,,,

@@ -1,0 +1,84 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Plenoxels,Plenoxels,Mip-NeRF 360,average,23.08,0.626,0.463,2150,GB,,6.79,1549,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Plenoxels,Plenoxels,Tanks and Temples,average,21.08,0.719,0.379,2355,GB,,13.0,1505,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,Plenoxels,Plenoxels,Deep Blending,average,23.06,0.795,0.51,2765,GB,,11.2,1669,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,INGP-base,Instant-NGP,Mip-NeRF 360,average,25.3,0.671,0.371,13,MB,,11.7,337,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,INGP-base,Instant-NGP,Tanks and Temples,average,21.72,0.723,0.33,13,MB,,17.1,326,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,INGP-base,Instant-NGP,Deep Blending,average,23.62,0.797,0.423,13,MB,,3.26,391,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,INGP-big,Instant-NGP,Mip-NeRF 360,average,25.59,0.699,0.331,48,MB,,9.43,450,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,INGP-big,Instant-NGP,Tanks and Temples,average,21.92,0.745,0.305,48,MB,,14.4,419,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,INGP-big,Instant-NGP,Deep Blending,average,24.96,0.817,0.39,48,MB,,2.79,480,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Mip-NeRF 360,NeRF,Mip-NeRF 360,average,27.69,0.792,0.237,8.6,MB,,0.06,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Mip-NeRF 360,NeRF,Tanks and Temples,average,22.22,0.759,0.257,8.6,MB,,0.14,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,Mip-NeRF 360,NeRF,Deep Blending,average,29.4,0.901,0.245,8.6,MB,,0.09,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,3DGS (as reported),3DGS,Mip-NeRF 360,average,27.21,0.815,0.214,734,MB,,134,2493,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,3DGS (as reported),3DGS,Tanks and Temples,average,23.14,0.841,0.183,411,MB,,154,1614,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,3DGS (as reported),3DGS,Deep Blending,average,29.41,0.903,0.243,676,MB,,137,2162,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,3DGS (re-run on an A100),3DGS,Mip-NeRF 360,average,27.46,0.812,0.222,746,MB,,120,1447,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,3DGS (re-run on an A100),3DGS,Tanks and Temples,average,23.71,0.845,0.178,432,MB,,160,831,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,3DGS (re-run on an A100),3DGS,Deep Blending,average,29.46,0.9,0.247,663,MB,,132,1312,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Compact 3DGS,3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,48.8,MB,,128,1986,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Compact 3DGS,3DGS,Tanks and Temples,average,23.32,0.831,0.201,39.4,MB,,185,1100,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,Compact 3DGS,3DGS,Deep Blending,average,29.79,0.901,0.258,43.2,MB,,181,1653,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,average,27.03,0.797,0.247,29.1,MB,,,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 1,5,main,Compact 3DGS + post-processing,3DGS,Tanks and Temples,average,23.32,0.831,0.202,20.9,MB,,,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 2,5,main,Compact 3DGS + post-processing,3DGS,Deep Blending,average,29.73,0.9,0.258,23.8,MB,,,,,,,Plenoxels sizes printed in GB and converted at 1 GB = 1024 MB; Mip-NeRF 360 training printed as 48h
+compact_3dgs_lee_cvpr2024,2311.13681,Table 3,5,main,3DGS (as reported),3DGS,NeRF Synthetic,average,33.32,,,68.1,MB,,359,374,,,,training printed as 6m 14s
+compact_3dgs_lee_cvpr2024,2311.13681,Table 3,5,main,Compact 3DGS,3DGS,NeRF Synthetic,average,33.33,,,5.55,MB,,545,484,,,,training printed as 8m 04s
+compact_3dgs_lee_cvpr2024,2311.13681,Table 3,5,main,Compact 3DGS + post-processing,3DGS,NeRF Synthetic,average,32.88,,,2.67,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.08,,,1433.6,MB,,,,,,,inference GPU memory 9.4 GB; bicycle storage printed as 1.4 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,bicycle,24.77,,,63,MB,,,,,,,inference GPU memory 7.6 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.16,,,295,MB,,,,,,,inference GPU memory 8.7 GB; bicycle storage printed as 1.4 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,bonsai,32.08,,,35,MB,,,,,,,inference GPU memory 8.3 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,3DGS,3DGS,Deep Blending,drjohnson,29.06,,,774,MB,,,,,,,inference GPU memory 7.5 GB; bicycle storage printed as 1.4 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,Compact 3DGS,3DGS,Deep Blending,drjohnson,29.26,,,48,MB,,,,,,,inference GPU memory 6.5 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,3DGS,3DGS,Deep Blending,playroom,29.87,,,553,MB,,,,,,,inference GPU memory 6.4 GB; bicycle storage printed as 1.4 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 8,12,supplement,Compact 3DGS,3DGS,Deep Blending,playroom,30.32,,,39,MB,,,,,,,inference GPU memory 5.6 GB
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.1,,,1350.78,MB,,63.81,2044,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,flowers,21.33,,,805.94,MB,,132.03,1533,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,garden,27.25,,,1331.33,MB,,77.19,2026,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,stump,26.66,,,1073.6,MB,,108.81,1625,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,treehill,22.53,,,819.08,MB,,100.92,1491,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,room,31.5,,,350.14,MB,,132.51,1375,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,counter,29.11,,,276.52,MB,,146.4,1362,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,kitchen,31.53,,,411.76,MB,,122.07,1568,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.16,,,295.08,MB,,199.86,1158,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,3DGS,3DGS,Mip-NeRF 360,average,27.46,,,746.03,MB,,120.4,1447,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,bicycle,24.77,,,62.99,MB,,76.41,2556,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,flowers,20.89,,,51.15,MB,,142.41,1957,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,garden,26.81,,,62.78,MB,,89.49,2736,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,stump,26.46,,,54.66,MB,,120.96,2023,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,treehill,22.65,,,59.33,MB,,110.28,2048,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,room,30.88,,,34.21,MB,,183.03,1458,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,counter,28.71,,,34.34,MB,,119.52,1661,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,kitchen,30.48,,,44.45,MB,,114.24,1979,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,bonsai,32.08,,,35.44,MB,,196.08,1456,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS,3DGS,Mip-NeRF 360,average,27.08,,,48.82,MB,,128.05,1986,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,bicycle,24.73,,,42.42,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,flowers,20.89,,,32.05,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,garden,26.72,,,43.26,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,stump,26.31,,,33.83,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,treehill,22.67,,,39.08,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,room,30.88,,,15.01,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,counter,28.63,,,15.22,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,kitchen,30.48,,,24.39,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,bonsai,31.98,,,16.4,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 9,13,supplement,Compact 3DGS + post-processing,3DGS,Mip-NeRF 360,average,27.03,,,29.07,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Tanks and Temples,train,22.07,,,255.82,MB,,174.42,738,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Tanks and Temples,truck,25.35,,,608.7,MB,,145.14,924,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Tanks and Temples,average,23.71,,,432.26,MB,,159.78,831,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Deep Blending,drjohnson,29.06,,,773.61,MB,,110.46,1462,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Deep Blending,playroom,29.87,,,553.03,MB,,154.47,1162,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,3DGS,3DGS,Deep Blending,average,29.46,,,663.32,MB,,132.47,1312,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Tanks and Temples,train,21.56,,,37.29,MB,,185.91,963,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Tanks and Temples,truck,25.07,,,41.57,MB,,184.83,1236,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Tanks and Temples,average,23.32,,,39.43,MB,,185.37,1100,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Deep Blending,drjohnson,29.26,,,47.98,MB,,155.37,1831,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Deep Blending,playroom,30.32,,,38.45,MB,,205.83,1475,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS,3DGS,Deep Blending,average,29.79,,,43.21,MB,,180.6,1653,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Tanks and Temples,train,21.62,,,19.07,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Tanks and Temples,truck,25.02,,,22.64,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Tanks and Temples,average,23.32,,,20.86,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Deep Blending,drjohnson,29.16,,,28.43,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Deep Blending,playroom,30.3,,,19.21,MB,,,,,,,
+compact_3dgs_lee_cvpr2024,2311.13681,Table 10,13,supplement,Compact 3DGS + post-processing,3DGS,Deep Blending,average,29.73,,,23.82,MB,,,,,,,

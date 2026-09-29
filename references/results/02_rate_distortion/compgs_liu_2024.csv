@@ -1,0 +1,145 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+compgs_liu_2024,2404.09458,Table 1,6,main,3DGS,3DGS,Tanks and Temples,average,23.72,0.85,0.18,434.38,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 1,6,main,Compact3D (Navaneet et al.),3DGS,Tanks and Temples,average,23.34,0.84,0.19,47.01,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 1,6,main,Compressed3D (Niedermayr et al.),3DGS,Tanks and Temples,average,23.58,0.85,0.19,17.65,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 1,6,main,Compact 3DGS (Lee et al.),3DGS,Tanks and Temples,average,23.4,0.84,0.2,39.47,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 1,6,main,EAGLES (Girish et al.),3DGS,Tanks and Temples,average,23.39,0.84,0.2,33.57,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 1,6,main,CompGS,3DGS,Tanks and Temples,average,23.7,0.84,0.21,9.6,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 1,6,main,CompGS,3DGS,Tanks and Temples,average,23.39,0.83,0.22,7.27,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 1,6,main,CompGS,3DGS,Tanks and Temples,average,23.11,0.81,0.24,5.89,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 2,6,main,3DGS,3DGS,Deep Blending,average,29.54,0.91,0.24,665.99,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 2,6,main,Compact3D (Navaneet et al.),3DGS,Deep Blending,average,29.89,0.91,0.25,72.46,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 2,6,main,Compressed3D (Niedermayr et al.),3DGS,Deep Blending,average,29.45,0.91,0.25,23.87,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 2,6,main,Compact 3DGS (Lee et al.),3DGS,Deep Blending,average,29.82,0.91,0.25,43.14,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 2,6,main,EAGLES (Girish et al.),3DGS,Deep Blending,average,29.9,0.91,0.25,61.69,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 2,6,main,CompGS,3DGS,Deep Blending,average,29.69,0.9,0.28,8.77,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 2,6,main,CompGS,3DGS,Deep Blending,average,29.4,0.9,0.29,6.82,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 2,6,main,CompGS,3DGS,Deep Blending,average,29.3,0.9,0.29,6.03,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 3,6,main,3DGS,3DGS,Mip-NeRF 360,average,27.46,0.82,0.22,788.98,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 3,6,main,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,average,27.04,0.81,0.23,86.1,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 3,6,main,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,average,27.12,0.8,0.23,28.61,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 3,6,main,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,average,27.05,0.8,0.24,49.6,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 3,6,main,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,average,27.04,0.8,0.24,65.09,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 3,6,main,CompGS,3DGS,Mip-NeRF 360,average,27.26,0.8,0.24,16.5,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 3,6,main,CompGS,3DGS,Mip-NeRF 360,average,26.78,0.79,0.26,11.02,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 3,6,main,CompGS,3DGS,Mip-NeRF 360,average,26.37,0.78,0.28,8.83,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,train,22.02,0.81,0.21,257.44,MB,,,,,,,hybrid primitive structure: no; rate-constrained optimization: no
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,truck,25.41,0.88,0.15,611.31,MB,,,,,,,hybrid primitive structure: no; rate-constrained optimization: no
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,train,22.15,0.81,0.23,48.58,MB,,,,,,,hybrid primitive structure: yes; rate-constrained optimization: no
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,truck,25.2,0.86,0.19,30.38,MB,,,,,,,hybrid primitive structure: yes; rate-constrained optimization: no
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,train,22.12,0.8,0.23,8.6,MB,,,,,,,hybrid primitive structure: yes; rate-constrained optimization: yes
+compgs_liu_2024,2404.09458,Table 4,8,ablation,CompGS,3DGS,Tanks and Temples,truck,25.28,0.87,0.18,10.61,MB,,,,,,,hybrid primitive structure: yes; rate-constrained optimization: yes
+compgs_liu_2024,2404.09458,Table 5,9,ablation,CompGS w/o residual embeddings,3DGS,Tanks and Temples,train,20.5,0.73,0.31,5.75,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 5,9,ablation,CompGS,3DGS,Tanks and Temples,train,21.49,0.78,0.26,5.51,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 6,9,ablation,CompGS,3DGS,Tanks and Temples,train,22.04,0.8,0.24,7.87,MB,,,,,,,K = 5 coupled primitives per anchor
+compgs_liu_2024,2404.09458,Table 6,9,ablation,CompGS,3DGS,Tanks and Temples,train,22.12,0.8,0.23,8.6,MB,,,,,,,K = 10 coupled primitives per anchor
+compgs_liu_2024,2404.09458,Table 6,9,ablation,CompGS,3DGS,Tanks and Temples,train,21.9,0.8,0.24,8.28,MB,,,,,,,K = 15 coupled primitives per anchor
+compgs_liu_2024,2404.09458,Table 7,9,main,Compact3D (Navaneet et al.),3DGS,Tanks and Temples,average,,,,,,,,862.8,68.29,12.32,,training printed as 14.38 min; per-view render time 9.88 ms
+compgs_liu_2024,2404.09458,Table 7,9,main,Compressed3D (Niedermayr et al.),3DGS,Tanks and Temples,average,,,,,,,,930.0,2.23,0.25,,training printed as 15.5 min; per-view render time 9.74 ms
+compgs_liu_2024,2404.09458,Table 7,9,main,Compact 3DGS (Lee et al.),3DGS,Tanks and Temples,average,,,,,,,,2682.0,1.96,0.18,,training printed as 44.7 min; per-view render time 6.6 ms
+compgs_liu_2024,2404.09458,Table 7,9,main,EAGLES (Girish et al.),3DGS,Tanks and Temples,average,,,,,,,,537.0,0.54,0.64,,training printed as 8.95 min; per-view render time 6.96 ms
+compgs_liu_2024,2404.09458,Table 7,9,main,CompGS,3DGS,Tanks and Temples,average,,,,,,,,2269.8,6.27,4.46,,training printed as 37.83 min; per-view render time 5.32 ms
+compgs_liu_2024,2404.09458,Table 8,12,supplement,3DGS,3DGS,Tanks and Temples,train,22.02,0.81,0.21,257.44,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compact3D (Navaneet et al.),3DGS,Tanks and Temples,train,21.63,0.8,0.22,27.54,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compressed3D (Niedermayr et al.),3DGS,Tanks and Temples,train,21.92,0.81,0.22,13.78,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compact 3DGS (Lee et al.),3DGS,Tanks and Temples,train,21.69,0.8,0.24,37.38,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,EAGLES (Girish et al.),3DGS,Tanks and Temples,train,21.68,0.8,0.23,24.67,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,train,22.12,0.8,0.23,8.6,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,train,21.82,0.8,0.24,6.72,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,train,21.49,0.78,0.26,5.51,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 8,12,supplement,3DGS,3DGS,Tanks and Temples,truck,25.41,0.88,0.15,611.31,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compact3D (Navaneet et al.),3DGS,Tanks and Temples,truck,25.04,0.88,0.16,66.48,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compressed3D (Niedermayr et al.),3DGS,Tanks and Temples,truck,25.24,0.88,0.15,21.51,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,Compact 3DGS (Lee et al.),3DGS,Tanks and Temples,truck,25.1,0.87,0.16,41.55,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,EAGLES (Girish et al.),3DGS,Tanks and Temples,truck,25.1,0.87,0.17,42.46,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,truck,25.28,0.87,0.18,10.61,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,truck,24.97,0.86,0.2,7.82,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 8,12,supplement,CompGS,3DGS,Tanks and Temples,truck,24.72,0.85,0.21,6.27,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 9,12,supplement,3DGS,3DGS,Deep Blending,drjohnson,29.14,0.9,0.24,782.1,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compact3D (Navaneet et al.),3DGS,Deep Blending,drjohnson,29.34,0.9,0.25,85.1,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compressed3D (Niedermayr et al.),3DGS,Deep Blending,drjohnson,29.03,0.9,0.25,27.86,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compact 3DGS (Lee et al.),3DGS,Deep Blending,drjohnson,29.26,0.9,0.25,48.11,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,EAGLES (Girish et al.),3DGS,Deep Blending,drjohnson,29.52,0.91,0.24,80.09,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,drjohnson,29.33,0.9,0.27,10.38,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,drjohnson,29.21,0.9,0.27,8.21,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,drjohnson,28.99,0.9,0.28,7.0,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 9,12,supplement,3DGS,3DGS,Deep Blending,playroom,29.94,0.91,0.24,549.88,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compact3D (Navaneet et al.),3DGS,Deep Blending,playroom,30.43,0.91,0.24,59.82,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compressed3D (Niedermayr et al.),3DGS,Deep Blending,playroom,29.86,0.91,0.25,19.88,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,Compact 3DGS (Lee et al.),3DGS,Deep Blending,playroom,30.38,0.91,0.25,38.17,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,EAGLES (Girish et al.),3DGS,Deep Blending,playroom,30.27,0.91,0.25,43.28,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,playroom,30.04,0.9,0.29,7.15,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,playroom,29.59,0.89,0.3,5.43,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 9,12,supplement,CompGS,3DGS,Deep Blending,playroom,29.61,0.89,0.31,5.06,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.18,0.77,0.21,1431.12,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,bicycle,24.99,0.76,0.23,158.14,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,bicycle,24.99,0.75,0.23,46.77,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,bicycle,24.82,0.74,0.25,64.32,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,bicycle,24.8,0.74,0.25,102.32,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bicycle,24.7,0.74,0.26,21.74,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bicycle,24.42,0.72,0.28,15.05,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bicycle,24.21,0.71,0.3,12.3,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,flowers,21.55,0.61,0.34,858.08,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,flowers,21.29,0.59,0.35,92.93,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,flowers,21.27,0.59,0.35,31.19,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,flowers,21.07,0.57,0.38,51.23,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,flowers,21.11,0.58,0.37,63.83,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,flowers,21.31,0.58,0.35,25.44,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,flowers,21.18,0.57,0.37,17.27,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,flowers,20.97,0.55,0.39,12.85,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,garden,27.39,0.87,0.11,1383.79,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,garden,27.05,0.86,0.12,153.5,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,garden,26.98,0.85,0.14,46.63,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,garden,26.89,0.84,0.14,63.41,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,garden,26.81,0.84,0.15,76.21,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,garden,27.45,0.85,0.13,28.66,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,garden,27.07,0.84,0.15,17.73,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,garden,26.74,0.83,0.17,15.41,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,stump,26.56,0.77,0.22,1149.3,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,stump,26.53,0.77,0.23,126.12,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,stump,26.31,0.76,0.25,39.88,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,stump,26.28,0.76,0.26,56.63,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,stump,26.44,0.76,0.24,104.52,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,stump,26.24,0.75,0.26,12.02,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,stump,26.05,0.74,0.28,8.23,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,stump,25.78,0.72,0.3,6.56,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,treehill,22.49,0.63,0.33,893.52,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,treehill,22.5,0.63,0.34,97.24,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,treehill,22.45,0.62,0.35,33.24,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,treehill,22.59,0.63,0.34,61.29,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,treehill,22.56,0.63,0.35,78.21,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,treehill,23.11,0.64,0.33,20.02,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,treehill,23.05,0.64,0.35,12.63,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,treehill,22.94,0.62,0.37,10.23,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,room,31.44,0.92,0.22,366.62,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,room,31.05,0.91,0.23,39.01,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,room,31.15,0.91,0.23,14.67,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,room,30.76,0.91,0.23,34.26,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,room,31.52,0.92,0.23,36.13,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,room,30.85,0.91,0.23,8.85,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,room,30.14,0.9,0.25,6.76,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,room,29.88,0.89,0.26,5.58,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,counter,28.99,0.91,0.2,285.04,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,counter,28.24,0.9,0.22,30.48,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,counter,28.69,0.9,0.21,13.58,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,counter,28.6,0.9,0.22,34.49,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,counter,28.32,0.9,0.22,31.73,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,counter,29.09,0.9,0.22,9.61,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,counter,28.4,0.89,0.24,6.96,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,counter,27.73,0.87,0.26,5.41,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,kitchen,31.34,0.93,0.13,426.82,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,kitchen,30.53,0.92,0.14,45.82,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,kitchen,30.75,0.92,0.14,18.46,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,kitchen,30.5,0.92,0.14,45.36,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,kitchen,30.4,0.92,0.14,56.64,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,kitchen,30.82,0.92,0.15,10.39,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,kitchen,30.0,0.9,0.16,6.88,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,kitchen,29.29,0.89,0.18,5.55,MB,,,,,,,rate point lambda=0.01
+compgs_liu_2024,2404.09458,Table 10,13,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.16,0.94,0.2,297.5,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,bonsai,31.21,0.93,0.22,31.65,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,bonsai,31.48,0.93,0.21,13.08,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,bonsai,31.92,0.93,0.22,35.4,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,EAGLES (Girish et al.),3DGS,Mip-NeRF 360,bonsai,31.38,0.93,0.22,36.22,MB,,,,,,,
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bonsai,31.8,0.93,0.22,11.78,MB,,,,,,,rate point lambda=0.001
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bonsai,30.76,0.92,0.24,7.63,MB,,,,,,,rate point lambda=0.005
+compgs_liu_2024,2404.09458,Table 10,13,supplement,CompGS,3DGS,Mip-NeRF 360,bonsai,29.79,0.91,0.26,5.56,MB,,,,,,,rate point lambda=0.01

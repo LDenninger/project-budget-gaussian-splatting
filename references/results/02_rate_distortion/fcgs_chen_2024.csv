@@ -1,0 +1,28 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+fcgs_chen_2024,2410.08017,Table C,20,main,3DGS,3DGS,DL3DV-GS,average,29.34,0.898,0.146,372.5,MB,,,751,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table C,20,main,LightGaussian,3DGS,DL3DV-GS,average,28.89,0.89,0.159,24.61,MB,,,227,,,,"finetuned from the same vanilla 3DGS, whose own training took 751 s"
+fcgs_chen_2024,2410.08017,Table C,20,main,Compact3D (Navaneet et al.),3DGS,DL3DV-GS,average,28.36,0.884,0.169,13.6,MB,,,546,,,,"finetuned from the same vanilla 3DGS, whose own training took 751 s"
+fcgs_chen_2024,2410.08017,Table C,20,main,Compressed3D (Niedermayr et al.),3DGS,DL3DV-GS,average,29.04,0.893,0.154,15.36,MB,,,122,,,,"finetuned from the same vanilla 3DGS, whose own training took 751 s"
+fcgs_chen_2024,2410.08017,Table C,20,main,SOG (Self-Organizing Gaussians),3DGS,DL3DV-GS,average,28.54,0.888,0.156,16.5,MB,,,1068,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table C,20,main,EAGLES,3DGS,DL3DV-GS,average,28.53,0.884,0.17,24.04,MB,,,518,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table C,20,main,Compact 3DGS (Lee et al.),3DGS,DL3DV-GS,average,28.71,0.886,0.165,36.56,MB,,,938,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table C,20,main,FCGS-lowrate,3DGS,DL3DV-GS,average,28.86,0.891,0.156,15.83,MB,,,,9,,,"encoding time 9 / 16 s on multiple / single GPU, on top of the 751 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"
+fcgs_chen_2024,2410.08017,Table C,20,main,FCGS-highrate,3DGS,DL3DV-GS,average,29.26,0.897,0.148,27.44,MB,,,,11,,,"encoding time 11 / 20 s on multiple / single GPU, on top of the 751 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"
+fcgs_chen_2024,2410.08017,Table D,20,main,3DGS,3DGS,Mip-NeRF 360,average,27.52,0.813,0.221,741.12,MB,,,1583,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table D,20,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.31,0.808,0.235,48.61,MB,,,422,,,,"finetuned from the same vanilla 3DGS, whose own training took 1583 s"
+fcgs_chen_2024,2410.08017,Table D,20,main,Compact3D (Navaneet et al.),3DGS,Mip-NeRF 360,average,26.8,0.796,0.256,20.66,MB,,,973,,,,"finetuned from the same vanilla 3DGS, whose own training took 1583 s"
+fcgs_chen_2024,2410.08017,Table D,20,main,Compressed3D (Niedermayr et al.),3DGS,Mip-NeRF 360,average,27.15,0.802,0.242,27.71,MB,,,195,,,,"finetuned from the same vanilla 3DGS, whose own training took 1583 s"
+fcgs_chen_2024,2410.08017,Table D,20,main,SOG (Self-Organizing Gaussians),3DGS,Mip-NeRF 360,average,27.08,0.799,0.229,41.0,MB,,,2391,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table D,20,main,EAGLES,3DGS,Mip-NeRF 360,average,27.14,0.809,0.231,58.91,MB,,,1245,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table D,20,main,Compact 3DGS (Lee et al.),3DGS,Mip-NeRF 360,average,27.05,0.797,0.247,48.93,MB,,,1885,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table D,20,main,FCGS-lowrate,3DGS,Mip-NeRF 360,average,27.05,0.798,0.237,34.64,MB,,,,10,,,"encoding time 10 / 31 s on multiple / single GPU, on top of the 1583 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"
+fcgs_chen_2024,2410.08017,Table D,20,main,FCGS-highrate,3DGS,Mip-NeRF 360,average,27.39,0.806,0.226,64.05,MB,,,,14,,,"encoding time 14 / 41 s on multiple / single GPU, on top of the 1583 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"
+fcgs_chen_2024,2410.08017,Table E,20,main,3DGS,3DGS,Tanks and Temples,average,23.71,0.845,0.179,432.03,MB,,,814,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table E,20,main,LightGaussian,3DGS,Tanks and Temples,average,23.62,0.837,0.197,28.6,MB,,,241,,,,"finetuned from the same vanilla 3DGS, whose own training took 814 s"
+fcgs_chen_2024,2410.08017,Table E,20,main,Compact3D (Navaneet et al.),3DGS,Tanks and Temples,average,23.15,0.831,0.205,13.64,MB,,,587,,,,"finetuned from the same vanilla 3DGS, whose own training took 814 s"
+fcgs_chen_2024,2410.08017,Table E,20,main,Compressed3D (Niedermayr et al.),3DGS,Tanks and Temples,average,23.63,0.842,0.187,17.65,MB,,,120,,,,"finetuned from the same vanilla 3DGS, whose own training took 814 s"
+fcgs_chen_2024,2410.08017,Table E,20,main,SOG (Self-Organizing Gaussians),3DGS,Tanks and Temples,average,23.66,0.837,0.187,23.1,MB,,,1219,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table E,20,main,EAGLES,3DGS,Tanks and Temples,average,23.28,0.835,0.203,28.99,MB,,,604,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table E,20,main,Compact 3DGS (Lee et al.),3DGS,Tanks and Temples,average,23.35,0.832,0.202,39.38,MB,,,1007,,,,trained from scratch
+fcgs_chen_2024,2410.08017,Table E,20,main,FCGS-lowrate,3DGS,Tanks and Temples,average,23.48,0.832,0.193,17.89,MB,,,,10,,,"encoding time 10 / 16 s on multiple / single GPU, on top of the 814 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"
+fcgs_chen_2024,2410.08017,Table E,20,main,FCGS-highrate,3DGS,Tanks and Temples,average,23.62,0.839,0.184,32.02,MB,,,,13,,,"encoding time 13 / 24 s on multiple / single GPU, on top of the 814 s vanilla 3DGS training; FCGS is feed-forward, with no per-scene optimisation"

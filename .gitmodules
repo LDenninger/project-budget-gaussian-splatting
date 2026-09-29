@@ -1,0 +1,33 @@
+[submodule "submodules/gsplat"]
+	path = submodules/gsplat
+	url = https://github.com/nerfstudio-project/gsplat.git
+[submodule "submodules/HAC-plus"]
+	path = submodules/HAC-plus
+	url = https://github.com/YihangChen-ee/HAC-plus.git
+[submodule "submodules/SizeGS"]
+	path = submodules/SizeGS
+	url = https://github.com/mmlab-sigs/SizeGS.git
+[submodule "submodules/mesongs_plus"]
+	path = submodules/mesongs_plus
+	url = https://github.com/mmlab-sigs/mesongs_plus.git
+[submodule "submodules/ffsplat"]
+	path = submodules/ffsplat
+	url = https://github.com/w-m/ffsplat.git
+[submodule "submodules/taming-3dgs"]
+	path = submodules/taming-3dgs
+	url = https://github.com/humansensinglab/taming-3dgs.git
+[submodule "submodules/GaussianSpa"]
+	path = submodules/GaussianSpa
+	url = https://github.com/noodle-lab/GaussianSpa.git
+[submodule "submodules/gaussian-splatting-pup"]
+	path = submodules/gaussian-splatting-pup
+	url = https://github.com/j-alex-hanson/gaussian-splatting-pup.git
+[submodule "submodules/SALVQ"]
+	path = submodules/SALVQ
+	url = https://github.com/hxu160/SALVQ.git
+[submodule "submodules/mpeg-pcc-tmc13"]
+	path = submodules/mpeg-pcc-tmc13
+	url = https://github.com/MPEGGroup/mpeg-pcc-tmc13.git
+[submodule "workspaces/ldtrain"]
+	path = workspaces/ldtrain
+	url = git@github.com:LDenninger/ldtrain.git

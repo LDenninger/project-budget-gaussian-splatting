@@ -1,0 +1,22 @@
+column,unit,meaning
+source_paper,,slug of the PDF the number was transcribed from (matches references/manifest.txt)
+source_arxiv,,arXiv id of that PDF
+source_table,,table label as printed in the paper
+source_page,,1-based page number of that PDF (as a viewer shows it)
+table_kind,,main | ablation | supplement
+method,,method name as printed in the table
+base_model,,representation the method is built on: 3DGS | Scaffold-GS | 2DGS | 4DGS | Mip-Splatting | none
+dataset,,Mip-NeRF 360 | Tanks and Temples | Deep Blending | NeRF Synthetic | BungeeNeRF | N3DV | Other
+scene,,scene name as printed, or `average` for a dataset-average row
+psnr_db,dB,peak signal-to-noise ratio, higher better
+ssim,,structural similarity, higher better
+lpips,,learned perceptual similarity, lower better
+size_mb,MB or MiB,"stored model size, exactly as printed when the paper prints MB or MiB (no conversion), converted when the paper prints GB or KB"
+size_unit_printed,,"the unit the source paper actually printed: MB, MiB, GB, KB. MiB = 1.048576 MB"
+num_gaussians,count,number of primitives (Gaussians or anchors, see notes)
+fps,1/s,rendering frame rate
+train_time_s,s,training or finetuning wall-clock
+encode_time_s,s,compression / encoding wall-clock
+decode_time_s,s,decompression / decoding wall-clock
+total_time_s,s,end-to-end wall-clock as the paper defines it
+notes,,anything needed to read the row correctly

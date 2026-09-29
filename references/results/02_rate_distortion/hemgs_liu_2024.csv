@@ -1,0 +1,62 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+hemgs_liu_2024,2411.18473,Table 1,6,main,3DGS,3DGS,Mip-NeRF 360,average,27.49,0.813,0.222,744.7,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.9,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,EAGLES,3DGS,Mip-NeRF 360,average,27.15,0.808,0.238,68.89,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.0,0.799,0.249,44.54,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compact3DGS (Lee et al.),3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,48.8,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compressed3D,3DGS,Mip-NeRF 360,average,26.98,0.801,0.238,28.8,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Mip-NeRF 360,average,26.01,0.772,0.259,23.9,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Navaneet et al. (Compact3D),3DGS,Mip-NeRF 360,average,27.16,0.808,0.228,50.3,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,CompGS,3DGS,Mip-NeRF 360,average,27.26,0.803,0.239,16.5,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HAC,Scaffold-GS,Mip-NeRF 360,average,27.77,0.811,0.23,21.87,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,ContextGS,Scaffold-GS,Mip-NeRF 360,average,27.72,0.811,0.231,21.58,MB,,,,,,,"HEMGS quotes ContextGS at 21.58 MB, the value from ContextGS appendix Table 9, not the 18.41 MB of ContextGS Table 1"
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (low-rate),Scaffold-GS,Mip-NeRF 360,average,27.68,0.809,0.239,12.52,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (high-rate),Scaffold-GS,Mip-NeRF 360,average,27.89,0.815,0.226,17.56,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,3DGS,3DGS,Tanks and Temples,average,23.69,0.844,0.178,431.0,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,EAGLES,3DGS,Tanks and Temples,average,23.41,0.84,0.2,34.0,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,LightGaussian,3DGS,Tanks and Temples,average,22.83,0.822,0.242,22.43,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compact3DGS (Lee et al.),3DGS,Tanks and Temples,average,23.32,0.831,0.201,39.43,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compressed3D,3DGS,Tanks and Temples,average,23.32,0.832,0.194,17.28,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Tanks and Temples,average,22.78,0.817,0.211,13.05,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Navaneet et al. (Compact3D),3DGS,Tanks and Temples,average,23.47,0.84,0.188,27.97,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,CompGS,3DGS,Tanks and Temples,average,23.7,0.837,0.208,9.6,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HAC,Scaffold-GS,Tanks and Temples,average,24.4,0.853,0.177,11.24,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,ContextGS,Scaffold-GS,Tanks and Temples,average,24.29,0.855,0.176,11.8,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (low-rate),Scaffold-GS,Tanks and Temples,average,24.41,0.854,0.183,6.13,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (high-rate),Scaffold-GS,Tanks and Temples,average,24.62,0.857,0.18,7.46,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,3DGS,3DGS,Deep Blending,average,29.42,0.899,0.247,663.9,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,EAGLES,3DGS,Deep Blending,average,29.91,0.91,0.25,62.0,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,LightGaussian,3DGS,Deep Blending,average,27.01,0.872,0.308,33.94,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compact3DGS (Lee et al.),3DGS,Deep Blending,average,29.79,0.901,0.258,43.21,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compressed3D,3DGS,Deep Blending,average,29.38,0.898,0.253,25.3,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Deep Blending,average,28.92,0.891,0.276,8.4,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Navaneet et al. (Compact3D),3DGS,Deep Blending,average,29.75,0.903,0.247,42.77,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,CompGS,3DGS,Deep Blending,average,29.69,0.901,0.279,8.77,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HAC,Scaffold-GS,Deep Blending,average,30.34,0.906,0.258,6.35,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,ContextGS,Scaffold-GS,Deep Blending,average,30.39,0.909,0.258,6.6,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (low-rate),Scaffold-GS,Deep Blending,average,30.24,0.909,0.258,3.67,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (high-rate),Scaffold-GS,Deep Blending,average,30.4,0.911,0.255,4.25,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,3DGS,3DGS,NeRF Synthetic,average,33.8,0.97,0.031,68.46,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Scaffold-GS,Scaffold-GS,NeRF Synthetic,average,33.41,0.966,0.035,19.36,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,EAGLES,3DGS,NeRF Synthetic,average,32.54,0.965,0.039,5.74,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,LightGaussian,3DGS,NeRF Synthetic,average,32.73,0.965,0.037,7.84,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compact3DGS (Lee et al.),3DGS,NeRF Synthetic,average,33.33,0.968,0.034,5.54,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Compressed3D,3DGS,NeRF Synthetic,average,32.94,0.967,0.033,3.68,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,NeRF Synthetic,average,31.05,0.955,0.047,2.2,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,Navaneet et al. (Compact3D),3DGS,NeRF Synthetic,average,33.09,0.967,0.036,4.42,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HAC,Scaffold-GS,NeRF Synthetic,average,33.71,0.968,0.034,1.86,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (low-rate),Scaffold-GS,NeRF Synthetic,average,33.33,0.967,0.038,1.18,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 1,6,main,HEMGS (high-rate),Scaffold-GS,NeRF Synthetic,average,33.82,0.968,0.034,1.62,MB,,,,,,,"HEMGS reaches 16 rate points from a single model via its variable-rate predictor; four lambdas (1e-3, 2e-3, 3e-3, 4e-3) are used during training"
+hemgs_liu_2024,2411.18473,Table 3,7,ablation,HEMGS,Scaffold-GS,Deep Blending,playroom,30.75,,,3.31,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 3,7,ablation,HEMGS w/o scene-agnostic network,Scaffold-GS,Deep Blending,playroom,30.67,,,3.54,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 3,7,ablation,HEMGS w/o scene-agnostic and autoregressive network,Scaffold-GS,Deep Blending,playroom,30.62,,,4.11,MB,,,,,,,
+hemgs_liu_2024,2411.18473,Table 4,7,ablation,HEMGS,Scaffold-GS,Deep Blending,playroom,30.67,,,3.54,MB,,,,,,,"average anchors in the receptive field 5.76, maximum 20; the receptive field is 25x25x25 at voxel level unless stated"
+hemgs_liu_2024,2411.18473,Table 4,7,ablation,HEMGS w/o adaptive context selection,Scaffold-GS,Deep Blending,playroom,30.67,,,3.75,MB,,,,,,,"average anchors in the receptive field 6.15, maximum 80; the receptive field is 25x25x25 at voxel level unless stated"
+hemgs_liu_2024,2411.18473,Table 4,7,ablation,HEMGS with small receptive field (5x5x5),Scaffold-GS,Deep Blending,playroom,30.65,,,4.01,MB,,,,,,,"average anchors in the receptive field 0.43, maximum 30; the receptive field is 25x25x25 at voxel level unless stated"
+hemgs_liu_2024,2411.18473,Table 5,8,ablation,HAC,Scaffold-GS,Deep Blending,average,30.22,0.908,,4.318,MB,,,,,,,"per-component storage in MB: location 0.897, feature 1.366, scaling 0.716, offsets 0.974, others 0.362"
+hemgs_liu_2024,2411.18473,Table 5,8,ablation,HEMGS,Scaffold-GS,Deep Blending,average,30.24,0.909,,3.67,MB,,,,,,,"per-component storage in MB: location 0.736, feature 1.244, scaling 0.648, offsets 0.64, others 0.402"
+hemgs_liu_2024,2411.18473,Table 6,8,main,ContextGS,Scaffold-GS,Deep Blending,average,,,,,,,,,,,,"training time 5 x N hours, model size 0.316 x N MB; N is the number of rate points; ContextGS needs one model per rate point; entries are formulas, not scalars, so they are left out of the numeric columns"
+hemgs_liu_2024,2411.18473,Table 6,8,main,HAC,Scaffold-GS,Deep Blending,average,,,,,,,,,,,,"training time 0.5 x N hours, model size 0.157 x N MB; N is the number of rate points; HAC needs one model per rate point; entries are formulas, not scalars, so they are left out of the numeric columns"
+hemgs_liu_2024,2411.18473,Table 6,8,main,HEMGS,Scaffold-GS,Deep Blending,average,,,,,,,,,,,,"training time 1 x 1 hours, model size 0.236 x 1 MB; a single model covers every rate point; entries are formulas, not scalars, so they are left out of the numeric columns"

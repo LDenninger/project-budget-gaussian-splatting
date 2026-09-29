@@ -1,0 +1,32 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Vanilla 3DGS,3DGS,Mip-NeRF 360,average,25.15,0.712,,20.83,MB,,692.8,,,,,measured by the GETA authors in their own environment; entropy-coded vanilla baseline; comp. ratio 1.0x
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,LP-3DGS,3DGS,Mip-NeRF 360,average,27.47,0.812,0.227,271.6,MB,,,,,,,dagger row reproduced from LP-3DGS Tables 1/7 RadSplat-score variant; size computed from the reported pruning ratio on LP-3DGS's own uncompressed FP storage
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,CompGS,3DGS,Mip-NeRF 360,average,27.16,0.808,0.228,54.60,MB,,,,,,,dagger row reproduced from CompGS Table 1 CompGS-32K variant
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,FlexGaussian,3DGS,Mip-NeRF 360,average,26.38,0.780,0.251,40.80,MB,,,,,,,dagger row reproduced from FlexGaussian Table 1
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,HAC++,Scaffold-GS,Mip-NeRF 360,average,27.60,0.803,0.253,8.34,MB,,,,,,,dagger row reproduced from HAC++ Table II low-rate variant
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Naive PTQ (8-bit),3DGS,Mip-NeRF 360,average,16.73,0.398,,20.13,MB,,656.2,,,,,sequential opacity-threshold pruning then post-training INT8 quantization; measured by the GETA authors
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,GETA-3DGS,3DGS,Mip-NeRF 360,average,23.36,0.631,0.430,4.86,MB,,,,,,,competitive bit preset; comp. ratio 4.29x; metrics at iteration T4=35k
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Vanilla 3DGS,3DGS,Tanks and Temples,average,22.30,0.794,,24.80,MB,,664.8,,,,,truck and train; measured by the GETA authors
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,LP-3DGS,3DGS,Tanks and Temples,average,23.60,0.842,0.188,132.2,MB,,,,,,,dagger row; size computed from reported pruning ratio
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,CompGS,3DGS,Tanks and Temples,average,23.47,0.840,0.188,54.60,MB,,,,,,,dagger row; CompGS-32K
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,FlexGaussian,3DGS,Tanks and Temples,average,22.44,0.804,0.219,16.30,MB,,,,,,,dagger row
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,HAC++,Scaffold-GS,Tanks and Temples,average,24.22,0.849,0.190,5.18,MB,,,,,,,dagger row; low-rate variant
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Naive PTQ (8-bit),3DGS,Tanks and Temples,average,11.87,0.341,,22.97,MB,,473.7,,,,,
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,GETA-3DGS,3DGS,Tanks and Temples,average,20.22,0.666,0.305,5.36,MB,,,,,,,comp. ratio 4.63x
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Vanilla 3DGS,3DGS,Deep Blending,average,27.83,0.872,,11.16,MB,,944.9,,,,,playroom and drjohnson; measured by the GETA authors
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,CompGS,3DGS,Deep Blending,average,29.75,0.903,0.247,54.60,MB,,,,,,,dagger row; CompGS-32K
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,FlexGaussian,3DGS,Deep Blending,average,28.61,0.884,0.269,25.48,MB,,,,,,,dagger row
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,HAC++,Scaffold-GS,Deep Blending,average,30.16,0.907,0.266,2.91,MB,,,,,,,dagger row; low-rate variant
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,Naive PTQ (8-bit),3DGS,Deep Blending,average,22.89,0.676,,10.81,MB,,846.5,,,,,
+geta_3dgs_zhang_2026,2605.02086,Table II,10,main,GETA-3DGS,3DGS,Deep Blending,average,27.13,0.862,0.165,2.51,MB,,,,,,,comp. ratio 4.45x
+geta_3dgs_zhang_2026,2605.02086,Table III,11,main,GETA-3DGS,3DGS,Mip-NeRF 360,average,,,,,,,,1872,,2.348,,printed as 0.52 h train / 2348 ms decode / 5.04 ms render / 419 MB peak GPU / 63.7 bytes per Gaussian; A100
+geta_3dgs_zhang_2026,2605.02086,Table III,11,main,GETA-3DGS,3DGS,Tanks and Temples,average,,,,,,,,1188,,6.209,,printed as 0.33 h / 6209 ms / 4.11 ms render / 248 MB peak GPU / 63.7 bytes per Gaussian
+geta_3dgs_zhang_2026,2605.02086,Table III,11,main,GETA-3DGS,3DGS,Deep Blending,average,,,,,,,,1332,,0.761,,printed as 0.37 h / 761 ms / 4.35 ms render / 116 MB peak GPU / 63.7 bytes per Gaussian
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS (full),3DGS,Mip-NeRF 360,average,22.53,,,,,77100,,,,,,sparsity target K=50k; mean post-pruning Gaussian count 77.1k; mean bit-width 7.41
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS w/o render-aware saliency,3DGS,Mip-NeRF 360,average,22.57,,,,,77000,,,,,,mean bit-width 7.72; delta PSNR +0.04
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS w/o per-attribute bit-widths,3DGS,Mip-NeRF 360,average,22.44,,,,,76500,,,,,,mean bit-width 8.90; delta PSNR -0.09
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS w/o cool-down stage,3DGS,Mip-NeRF 360,average,22.51,,,,,76700,,,,,,mean bit-width 7.75; delta PSNR -0.02
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS w/o bit-budget projection,3DGS,Mip-NeRF 360,average,22.64,,,,,73800,,,,,,mean bit-width 8.37; delta PSNR +0.11
+geta_3dgs_zhang_2026,2605.02086,Table IV,12,ablation,GETA-3DGS uniform 6-bit quantization,3DGS,Mip-NeRF 360,average,20.35,,,,,70500,,,,,,mean bit-width 7.17; delta PSNR -2.18
+geta_3dgs_zhang_2026,2605.02086,Fig. 2 / Fig. 6,9,ablation,GETA-3DGS,3DGS,Mip-NeRF 360,average,21.65,,,4.1,MB,,,,,,,"budget sweep B=5 MB at the compressive bit preset; realised size lands in 4.0-4.2 MB for every B in {3,5,8,10,12,30,60,120}; the size budget is NON-BINDING"
+geta_3dgs_zhang_2026,2605.02086,Fig. 2 / Fig. 6,9,ablation,GETA-3DGS,3DGS,Mip-NeRF 360,average,22.55,,,4.1,MB,,,,,,,budget sweep B=60 MB at the compressive bit preset; same realised size band as B=5; the size budget is NON-BINDING

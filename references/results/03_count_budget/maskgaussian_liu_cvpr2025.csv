@@ -1,0 +1,117 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS (as reported),3DGS,Mip-NeRF 360,average,27.21,0.815,0.214,,,,,,,,,"quoted from the 3DGS paper; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS (as reported),3DGS,Tanks and Temples,average,23.14,0.841,0.183,,,,,,,,,"quoted from the 3DGS paper; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS (as reported),3DGS,Deep Blending,average,29.41,0.903,0.243,,,,,,,,,"quoted from the 3DGS paper; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS,3DGS,Mip-NeRF 360,average,27.45,0.811,0.223,,,3204000,187.8,,,,,"re-run by the MaskGaussian authors on an RTX 4090; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS,3DGS,Tanks and Temples,average,23.74,0.848,0.176,,,1825000,254.5,,,,,"re-run by the MaskGaussian authors on an RTX 4090; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,3DGS,3DGS,Deep Blending,average,29.53,0.903,0.243,,,2815000,201.3,,,,,"re-run by the MaskGaussian authors on an RTX 4090; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,Compact3DGS,3DGS,Mip-NeRF 360,average,27.32,0.805,0.233,,,1533000,281.1,,,,,"mask-learning component only, without NeRF init, vector quantization or SH distillation; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,Compact3DGS,3DGS,Tanks and Temples,average,23.61,0.846,0.18,,,960000,358.9,,,,,"mask-learning component only, without NeRF init, vector quantization or SH distillation; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,Compact3DGS,3DGS,Deep Blending,average,29.58,0.903,0.248,,,1310000,366.2,,,,,"mask-learning component only, without NeRF init, vector quantization or SH distillation; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,RadSplat,3DGS,Mip-NeRF 360,average,27.45,0.811,0.223,,,2184000,247.8,,,,,"pruning component only; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,RadSplat,3DGS,Tanks and Temples,average,23.61,0.847,0.178,,,1053000,396.4,,,,,"pruning component only; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,RadSplat,3DGS,Deep Blending,average,29.55,0.903,0.244,,,1515000,345.3,,,,,"pruning component only; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,MaskGaussian-alpha,3DGS,Mip-NeRF 360,average,27.43,0.811,0.227,,,1205000,384.7,,,,,"lambda_m=0.1 applied from iteration 19000 to 20000; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,MaskGaussian-alpha,3DGS,Tanks and Temples,average,23.72,0.847,0.181,,,590000,558.3,,,,,"lambda_m=0.1 applied from iteration 19000 to 20000; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 1,6,main,MaskGaussian-alpha,3DGS,Deep Blending,average,29.69,0.907,0.244,,,694000,637.1,,,,,"lambda_m=0.1 applied from iteration 19000 to 20000; ""#GS"" is the Gaussian count in millions, no MB column in this table"
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,Compact3DGS,3DGS,Mip-NeRF 360,average,27.32,0.805,0.233,362.7,MB,1533000,,1159,,,,baseline; training time printed as 19:19 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,Compact3DGS,3DGS,Tanks and Temples,average,23.61,0.846,0.18,228.3,MB,960000,,622,,,,baseline; training time printed as 10:22 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,Compact3DGS,3DGS,Deep Blending,average,29.58,0.903,0.248,311.1,MB,1310000,,983,,,,baseline; training time printed as 16:23 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-beta,3DGS,Mip-NeRF 360,average,27.44,0.811,0.226,362.5,MB,1520000,,1184,,,,"lambda_m=0.0005 across all 30000 iterations, the same setting as Compact3DGS; training time printed as 19:44 (mm:ss)"
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-beta,3DGS,Tanks and Temples,average,23.66,0.846,0.18,175.4,MB,740000,,592,,,,"lambda_m=0.0005 across all 30000 iterations, the same setting as Compact3DGS; training time printed as 09:52 (mm:ss)"
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-beta,3DGS,Deep Blending,average,29.76,0.907,0.244,215.2,MB,913000,,947,,,,"lambda_m=0.0005 across all 30000 iterations, the same setting as Compact3DGS; training time printed as 15:47 (mm:ss)"
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-gamma,3DGS,Mip-NeRF 360,average,27.42,0.809,0.228,274.2,MB,1171000,,1072,,,,lambda_m=0.001 across all 30000 iterations; training time printed as 17:52 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-gamma,3DGS,Tanks and Temples,average,23.59,0.845,0.183,129.8,MB,549000,,534,,,,lambda_m=0.001 across all 30000 iterations; training time printed as 08:54 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 2,6,main,MaskGaussian-gamma,3DGS,Deep Blending,average,29.74,0.907,0.247,134.9,MB,570000,,848,,,,lambda_m=0.001 across all 30000 iterations; training time printed as 14:08 (mm:ss)
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,3DGS baseline (30000 iterations),3DGS,Mip-NeRF 360,average,27.5,0.811,0.224,,,3188000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,3DGS baseline (30000 iterations),3DGS,Tanks and Temples,average,23.62,0.847,0.176,,,1841000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,3DGS baseline (30000 iterations),3DGS,Deep Blending,average,29.54,0.904,0.244,,,2820000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,LightGaussian,3DGS,Mip-NeRF 360,average,27.5,0.809,0.232,,,1084000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,LightGaussian,3DGS,Tanks and Temples,average,23.75,0.843,0.187,,,626000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,LightGaussian,3DGS,Deep Blending,average,29.55,0.902,0.25,,,959000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,MaskGaussian,3DGS,Mip-NeRF 360,average,27.49,0.811,0.228,,,1052000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,MaskGaussian,3DGS,Tanks and Temples,average,23.75,0.847,0.178,,,579000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 5,8,ablation,MaskGaussian,3DGS,Deep Blending,average,29.71,0.905,0.246,,,667000,,,,,,post-training: both pruning methods finetune 5000 iterations on the same 30000-iteration 3DGS checkpoint
+maskgaussian_liu_cvpr2025,2412.20522,Table 6,8,ablation,MaskGaussian with straight-through estimator,3DGS,Mip-NeRF 360,average,27.3,0.808,0.232,,,1026000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 6,8,ablation,MaskGaussian with Gumbel softmax,3DGS,Mip-NeRF 360,average,27.44,0.811,0.226,,,1520000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 6,8,ablation,"MaskGaussian with Gumbel softmax, larger lambda_m",3DGS,Mip-NeRF 360,average,27.42,0.809,0.228,,,1171000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 7,8,ablation,"MaskGaussian, mask x opacity, smaller lambda_m",3DGS,Mip-NeRF 360,average,27.37,0.808,0.229,,,1844000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 7,8,ablation,"MaskGaussian, mask x opacity",3DGS,Mip-NeRF 360,average,27.05,0.801,0.245,,,866000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 7,8,ablation,"MaskGaussian, masked rasterization",3DGS,Mip-NeRF 360,average,27.44,0.811,0.226,,,1520000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 7,8,ablation,"MaskGaussian, masked rasterization, larger lambda_m",3DGS,Mip-NeRF 360,average,27.42,0.809,0.228,,,1171000,,,,,,lambda_m = 0.0005 unless the row says smaller (0.0001) or larger (0.001)
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L1 masking loss,3DGS,Mip-NeRF 360,average,27.32,0.805,0.233,,,1533000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L1 masking loss,3DGS,Tanks and Temples,average,23.61,0.846,0.18,,,960000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L1 masking loss,3DGS,Deep Blending,average,29.58,0.903,0.248,,,1310000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L2 masking loss,3DGS,Mip-NeRF 360,average,27.33,0.805,0.231,,,1745000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L2 masking loss,3DGS,Tanks and Temples,average,23.69,0.846,0.18,,,1066000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,Compact3DGS with L2 masking loss,3DGS,Deep Blending,average,29.58,0.904,0.246,,,1660000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L1 masking loss,3DGS,Mip-NeRF 360,average,27.42,0.811,0.225,,,1811000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L1 masking loss,3DGS,Tanks and Temples,average,23.56,0.845,0.179,,,900000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L1 masking loss,3DGS,Deep Blending,average,29.71,0.905,0.243,,,1208000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L2 masking loss,3DGS,Mip-NeRF 360,average,27.44,0.811,0.226,,,1520000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L2 masking loss,3DGS,Tanks and Temples,average,23.66,0.846,0.18,,,740000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 8,12,ablation,MaskGaussian with L2 masking loss,3DGS,Deep Blending,average,29.76,0.907,0.244,,,913000,,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,bicycle,25.09,0.745,0.244,,,5700000,89.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,bonsai,32.29,0.946,0.179,,,1250000,332.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,counter,29.09,0.915,0.183,,,1160000,244.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,flowers,21.35,0.587,0.358,,,3470000,182.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,garden,27.38,0.857,0.122,,,5810000,100.9,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,kitchen,31.3,0.931,0.116,,,1750000,195.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,room,31.44,0.919,0.217,,,1560000,231.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,stump,26.59,0.767,0.244,,,4650000,148.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,treehill,22.53,0.633,0.347,,,3490000,164.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,3DGS,3DGS,Mip-NeRF 360,average,27.45,0.811,0.223,,,3204000,187.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,bicycle,24.8,0.729,0.264,,,2660000,146.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,bonsai,32.23,0.946,0.181,,,660000,449.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,counter,29.02,0.913,0.185,,,560000,337.4,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,flowers,21.31,0.578,0.371,,,1690000,301.9,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,garden,27.06,0.846,0.139,,,2460000,178.4,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,kitchen,31.13,0.93,0.119,,,1070000,253.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,room,31.45,0.917,0.223,,,580000,383.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,stump,26.43,0.758,0.26,,,1970000,259.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,treehill,22.45,0.628,0.354,,,2150000,220.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,Compact3DGS,3DGS,Mip-NeRF 360,average,27.32,0.805,0.232,,,1533000,281.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,bicycle,25.07,0.745,0.244,,,3850000,132.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,bonsai,32.3,0.946,0.179,,,868000,411.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,counter,29.08,0.915,0.183,,,778000,318.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,flowers,21.38,0.588,0.359,,,2560000,228.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,garden,27.31,0.856,0.123,,,4010000,139.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,kitchen,31.49,0.932,0.116,,,1260000,244.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,room,31.44,0.919,0.218,,,874000,347.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,stump,26.58,0.768,0.244,,,2940000,199.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,treehill,22.43,0.632,0.348,,,2520000,209.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,RadSplat,3DGS,Mip-NeRF 360,average,27.45,0.811,0.223,,,2184000,247.8,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,bicycle,25.08,0.746,0.248,,,2340000,200.5,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,bonsai,31.9,0.944,0.184,,,353000,619.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,counter,29.01,0.913,0.188,,,328000,492.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,flowers,21.33,0.587,0.361,,,1410000,347.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,garden,27.34,0.856,0.125,,,2130000,227.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,kitchen,31.54,0.931,0.119,,,516000,435.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,room,31.42,0.918,0.222,,,366000,542.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,stump,26.67,0.77,0.244,,,1900000,289.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,treehill,22.6,0.634,0.352,,,1510000,309.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 12,14,supplement,MaskGaussian-alpha,3DGS,Mip-NeRF 360,average,27.43,0.811,0.227,,,1205000,384.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Tanks and Temples,train,22.06,0.815,0.206,,,1080000,296.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Tanks and Temples,truck,25.43,0.882,0.146,,,2570000,212.5,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Tanks and Temples,average,23.74,0.848,0.176,,,1825000,254.5,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Deep Blending,drjohnson,29.05,0.9,0.244,,,3300000,163.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Deep Blending,playroom,29.99,0.906,0.242,,,2330000,239.5,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,3DGS,3DGS,Deep Blending,average,29.52,0.903,0.243,,,2815000,201.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Tanks and Temples,train,21.89,0.812,0.21,,,810000,358.6,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Tanks and Temples,truck,25.33,0.88,0.15,,,1110000,359.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Tanks and Temples,average,23.61,0.846,0.18,,,960000,358.9,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Deep Blending,drjohnson,29.14,0.9,0.248,,,1620000,293.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Deep Blending,playroom,30.02,0.906,0.248,,,1000000,439.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,Compact3DGS,3DGS,Deep Blending,average,29.58,0.903,0.248,,,1310000,366.2,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Tanks and Temples,train,21.81,0.813,0.208,,,737000,433.5,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Tanks and Temples,truck,25.4,0.882,0.147,,,1370000,359.4,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Tanks and Temples,average,23.605,0.847,0.177,,,1053000,396.4,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Deep Blending,drjohnson,29.06,0.9,0.244,,,1750000,296.9,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Deep Blending,playroom,30.04,0.907,0.243,,,1280000,393.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,RadSplat,3DGS,Deep Blending,average,29.55,0.903,0.243,,,1515000,345.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Tanks and Temples,train,22.01,0.812,0.214,,,402000,607.0,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Tanks and Temples,truck,25.43,0.882,0.148,,,779000,509.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Tanks and Temples,average,23.72,0.847,0.181,,,590000,558.3,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Deep Blending,drjohnson,29.21,0.904,0.244,,,880000,466.1,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Deep Blending,playroom,30.18,0.91,0.245,,,508000,598.7,,,,,
+maskgaussian_liu_cvpr2025,2412.20522,Table 13,14,supplement,MaskGaussian-alpha,3DGS,Deep Blending,average,29.695,0.907,0.244,,,694000,532.4,,,,,

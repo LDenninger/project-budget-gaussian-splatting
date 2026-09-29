@@ -1,0 +1,325 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+salvq_xu_tip2025,2509.13482,Table X,12,main,3DGS,3DGS,Mip-NeRF 360,average,27.46,0.812,0.222,750.9,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.9,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compact3DGS (Lee et al.),3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,48.8,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compressed3D,3DGS,Mip-NeRF 360,average,26.98,0.801,0.238,28.8,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,EAGLES,3DGS,Mip-NeRF 360,average,27.14,0.809,0.231,58.91,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.0,0.799,0.249,44.54,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,SOG (Self-Organizing Gaussians),3DGS,Mip-NeRF 360,average,26.56,0.791,0.241,16.7,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Navaneet et al. (Compact3D),3DGS,Mip-NeRF 360,average,27.12,0.806,0.24,19.33,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Reduced3DGS,3DGS,Mip-NeRF 360,average,27.19,0.807,0.23,29.54,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,RDO-Gaussian,3DGS,Mip-NeRF 360,average,27.05,0.802,0.239,23.46,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,CompGS,3DGS,Mip-NeRF 360,average,27.26,0.803,0.239,16.5,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,FCGS,3DGS,Mip-NeRF 360,average,27.05,0.798,0.237,36.3,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC,Scaffold-GS,Mip-NeRF 360,average,27.53,0.807,0.238,15.26,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.6,0.807,0.239,14.3,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + FS-SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.61,0.807,0.239,14.23,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS,Scaffold-GS,Mip-NeRF 360,average,27.62,0.808,0.237,12.68,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.62,0.808,0.238,12.12,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + Sp-SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.65,0.808,0.237,12.15,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++,Scaffold-GS,Mip-NeRF 360,average,27.6,0.803,0.253,8.34,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.61,0.803,0.252,8.31,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,3DGS,3DGS,Tanks and Temples,average,23.69,0.844,0.178,431.0,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compact3DGS (Lee et al.),3DGS,Tanks and Temples,average,23.32,0.831,0.201,39.43,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compressed3D,3DGS,Tanks and Temples,average,23.32,0.832,0.194,17.28,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,EAGLES,3DGS,Tanks and Temples,average,23.28,0.835,0.203,28.99,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,LightGaussian,3DGS,Tanks and Temples,average,22.83,0.822,0.242,22.43,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,SOG (Self-Organizing Gaussians),3DGS,Tanks and Temples,average,23.15,0.828,0.198,9.3,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Navaneet et al. (Compact3D),3DGS,Tanks and Temples,average,23.44,0.838,0.198,12.5,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Reduced3DGS,3DGS,Tanks and Temples,average,23.57,0.84,0.188,14.0,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,RDO-Gaussian,3DGS,Tanks and Temples,average,23.34,0.835,0.195,12.03,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,CompGS,3DGS,Tanks and Temples,average,23.7,0.837,0.208,9.6,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,FCGS,3DGS,Tanks and Temples,average,23.48,0.833,0.193,18.8,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC,Scaffold-GS,Tanks and Temples,average,24.04,0.846,0.187,8.1,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,24.2,0.847,0.186,7.27,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + FS-SALVQ,Scaffold-GS,Tanks and Temples,average,24.23,0.848,0.185,7.48,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS,Scaffold-GS,Tanks and Temples,average,24.2,0.852,0.184,7.05,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,24.35,0.852,0.184,6.81,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + Sp-SALVQ,Scaffold-GS,Tanks and Temples,average,24.37,0.849,0.186,6.82,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++,Scaffold-GS,Tanks and Temples,average,24.22,0.849,0.19,5.18,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,24.26,0.849,0.19,5.22,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,3DGS,3DGS,Deep Blending,average,29.42,0.899,0.247,663.9,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compact3DGS (Lee et al.),3DGS,Deep Blending,average,29.79,0.901,0.258,43.21,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Compressed3D,3DGS,Deep Blending,average,29.38,0.898,0.253,25.3,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,EAGLES,3DGS,Deep Blending,average,29.72,0.906,0.249,52.34,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,LightGaussian,3DGS,Deep Blending,average,27.01,0.872,0.308,33.94,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,SOG (Self-Organizing Gaussians),3DGS,Deep Blending,average,29.12,0.892,0.27,5.7,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Navaneet et al. (Compact3D),3DGS,Deep Blending,average,29.9,0.907,0.251,13.5,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,Reduced3DGS,3DGS,Deep Blending,average,29.63,0.902,0.249,18.0,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,RDO-Gaussian,3DGS,Deep Blending,average,29.63,0.902,0.252,18.0,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,CompGS,3DGS,Deep Blending,average,29.69,0.901,0.279,8.77,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,FCGS,3DGS,Deep Blending,average,29.27,0.893,0.257,30.1,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC,Scaffold-GS,Deep Blending,average,29.98,0.902,0.269,4.35,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + SALVQ,Scaffold-GS,Deep Blending,average,30.06,0.903,0.268,3.98,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC + FS-SALVQ,Scaffold-GS,Deep Blending,average,30.12,0.903,0.268,3.96,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS,Scaffold-GS,Deep Blending,average,30.11,0.907,0.258,3.45,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,30.14,0.907,0.266,3.3,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,ContextGS + Sp-SALVQ,Scaffold-GS,Deep Blending,average,30.19,0.904,0.268,3.23,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++,Scaffold-GS,Deep Blending,average,30.16,0.907,0.266,2.91,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Table X,12,main,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,30.18,0.907,0.266,2.87,MB,,,,,,,"SALVQ = scene-adaptive lattice vector quantization replacing uniform scalar quantization; FS = fixed-scale, Sp = sparse variant"
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC,Scaffold-GS,Mip-NeRF 360,average,,,,,,,131,1949,4.2,10.05,,peak training GPU vRAM 8228 MB; quantizer USQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,,,,,,,136,2206,4.56,10.76,,peak training GPU vRAM 10197 MB; quantizer SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + FS-SALVQ,Scaffold-GS,Mip-NeRF 360,average,,,,,,,136,2265,4.71,10.85,,peak training GPU vRAM 10462 MB; quantizer FS-SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++,Scaffold-GS,Mip-NeRF 360,average,,,,,,,128,2735,8.48,13.86,,peak training GPU vRAM 9732 MB; quantizer USQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,,,,,,,143,2937,8.37,13.81,,peak training GPU vRAM 11654 MB; quantizer SALVQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,106,3927,32.73,33.32,,peak training GPU vRAM 11738 MB; quantizer USQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,,,,,,,104,4167,31.93,31.84,,peak training GPU vRAM 12012 MB; quantizer SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + Sp-SALVQ,Scaffold-GS,Mip-NeRF 360,average,,,,,,,102,4427,34.47,33.74,,peak training GPU vRAM 12854 MB; quantizer Sp-SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC,Scaffold-GS,Tanks and Temples,average,,,,,,,146,1385,2.51,5.77,,peak training GPU vRAM 4130 MB; quantizer USQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,,,,,,,139,1701,2.8,6.43,,peak training GPU vRAM 5493 MB; quantizer SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + FS-SALVQ,Scaffold-GS,Tanks and Temples,average,,,,,,,149,1750,2.79,6.12,,peak training GPU vRAM 6540 MB; quantizer FS-SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++,Scaffold-GS,Tanks and Temples,average,,,,,,,158,1880,5.63,8.81,,peak training GPU vRAM 4026 MB; quantizer USQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,,,,,,,164,2055,5.3,8.61,,peak training GPU vRAM 6534 MB; quantizer SALVQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS,Scaffold-GS,Tanks and Temples,average,,,,,,,130,2505,29.37,29.05,,peak training GPU vRAM 5841 MB; quantizer USQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,,,,,,,130,2639,31.64,28.8,,peak training GPU vRAM 5958 MB; quantizer SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + Sp-SALVQ,Scaffold-GS,Tanks and Temples,average,,,,,,,129,2844,31.87,30.73,,peak training GPU vRAM 6194 MB; quantizer Sp-SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC,Scaffold-GS,Deep Blending,average,,,,,,,179,1533,1.33,2.85,,peak training GPU vRAM 5729 MB; quantizer USQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + SALVQ,Scaffold-GS,Deep Blending,average,,,,,,,173,1766,1.49,3.11,,peak training GPU vRAM 8175 MB; quantizer SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC + FS-SALVQ,Scaffold-GS,Deep Blending,average,,,,,,,199,1843,1.45,3.0,,peak training GPU vRAM 8254 MB; quantizer FS-SALVQ on the HAC architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++,Scaffold-GS,Deep Blending,average,,,,,,,169,1857,2.98,4.41,,peak training GPU vRAM 6361 MB; quantizer USQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,,,,,,,182,2060,2.91,4.42,,peak training GPU vRAM 7681 MB; quantizer SALVQ on the HAC++ architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS,Scaffold-GS,Deep Blending,average,,,,,,,161,2320,16.78,16.63,,peak training GPU vRAM 6789 MB; quantizer USQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,,,,,,,169,2375,12.59,12.49,,peak training GPU vRAM 6884 MB; quantizer SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Tables III-VII,8,main,ContextGS + Sp-SALVQ,Scaffold-GS,Deep Blending,average,,,,,,,194,2636,11.73,11.37,,peak training GPU vRAM 7404 MB; quantizer Sp-SALVQ on the ContextGS architecture
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.72,0.905,0.258,6.15,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,playroom,30.63,0.904,0.265,3.79,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,average,30.18,0.905,0.261,4.97,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.61,0.904,0.263,4.93,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,playroom,30.51,0.902,0.273,3.03,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,average,30.06,0.903,0.268,3.98,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.39,0.899,0.274,3.99,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,playroom,30.29,0.899,0.278,2.56,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,average,29.84,0.899,0.276,3.27,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.04,0.898,0.279,3.45,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,playroom,30.2,0.903,0.28,2.18,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,average,29.62,0.901,0.28,2.81,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,drjohnson,28.96,0.895,0.287,3.18,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,playroom,29.73,0.889,0.29,1.94,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XII,17,supplement,HAC + SALVQ,Scaffold-GS,Deep Blending,average,29.35,0.897,0.288,2.56,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,train,22.69,0.82,0.21,8.1,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.99,0.881,0.15,10.06,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,24.34,0.85,0.18,9.08,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,train,22.47,0.816,0.215,6.52,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.92,0.878,0.157,8.02,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,24.2,0.847,0.186,7.27,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,train,22.42,0.809,0.227,4.82,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.75,0.873,0.167,6.92,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,24.09,0.841,0.197,5.92,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,train,22.22,0.802,0.238,4.02,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.58,0.871,0.176,5.66,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,23.9,0.837,0.207,4.84,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,train,22.06,0.792,0.253,3.19,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.33,0.863,0.191,4.99,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIII,17,supplement,HAC + SALVQ,Scaffold-GS,Tanks and Temples,average,23.7,0.827,0.222,4.09,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.15,0.744,0.261,32.93,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.83,0.946,0.183,9.74,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.62,0.915,0.188,8.24,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.31,0.575,0.378,22.19,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.42,0.847,0.143,26.16,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.57,0.928,0.124,9.5,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,room,32.02,0.925,0.2,5.86,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.65,0.763,0.265,20.57,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.36,0.646,0.351,23.97,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.77,0.81,0.233,17.68,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.06,0.742,0.267,26.8,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.4,0.943,0.188,7.94,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.47,0.911,0.195,6.71,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.29,0.574,0.38,18.46,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.31,0.842,0.153,21.12,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.27,0.925,0.13,7.64,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.73,0.922,0.208,4.79,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.6,0.76,0.273,16.66,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.29,0.644,0.358,18.62,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.6,0.807,0.239,14.3,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.94,0.736,0.275,21.6,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.85,0.937,0.197,6.63,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.07,0.905,0.204,5.34,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.17,0.564,0.392,14.25,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.05,0.832,0.167,16.35,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.8,0.918,0.139,5.94,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.48,0.917,0.217,3.95,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.51,0.756,0.283,13.66,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.19,0.638,0.37,14.71,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.34,0.8,0.249,11.38,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.7,0.727,0.289,17.45,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.26,0.932,0.205,5.85,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.67,0.897,0.218,4.44,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.06,0.553,0.405,11.37,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.65,0.817,0.191,13.7,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.36,0.911,0.149,5.08,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.04,0.91,0.23,3.44,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.31,0.745,0.302,10.97,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.15,0.627,0.388,11.97,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.02,0.791,0.264,9.36,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.48,0.714,0.306,15.32,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,30.66,0.925,0.215,5.39,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.16,0.886,0.233,3.91,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,20.82,0.537,0.423,9.83,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.42,0.805,0.207,11.66,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,29.77,0.902,0.163,4.35,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,room,30.76,0.905,0.24,3.13,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,25.98,0.725,0.328,9.36,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.04,0.614,0.406,10.43,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIV,17,supplement,HAC + SALVQ,Scaffold-GS,Mip-NeRF 360,average,26.68,0.779,0.28,8.15,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.72,0.907,0.256,4.9,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,playroom,30.73,0.91,0.265,3.58,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,30.23,0.908,0.26,4.24,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.65,0.905,0.262,3.81,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,playroom,30.64,0.909,0.269,2.79,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,30.14,0.907,0.266,3.3,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.51,0.903,0.269,2.89,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,playroom,30.45,0.905,0.278,2.2,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,29.98,0.904,0.274,2.54,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.24,0.898,0.282,2.24,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,playroom,30.24,0.902,0.286,1.74,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,29.74,0.9,0.284,1.99,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.03,0.892,0.293,1.8,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,playroom,29.99,0.899,0.295,1.4,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XV,17,supplement,ContextGS + SALVQ,Scaffold-GS,Deep Blending,average,29.51,0.895,0.294,1.6,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,train,22.74,0.823,0.211,7.58,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,truck,26.05,0.886,0.146,9.11,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,24.4,0.855,0.179,8.35,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,train,22.67,0.819,0.217,6.1,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,truck,26.02,0.885,0.15,7.53,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,24.35,0.852,0.184,6.81,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,train,22.48,0.812,0.228,4.88,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.89,0.881,0.158,6.3,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,24.19,0.846,0.193,5.59,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,train,22.33,0.804,0.24,3.91,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.76,0.878,0.165,4.84,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,24.05,0.841,0.202,4.37,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,train,22.07,0.793,0.253,3.11,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.59,0.872,0.176,4.3,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVI,18,supplement,ContextGS + SALVQ,Scaffold-GS,Tanks and Temples,average,23.83,0.833,0.215,3.71,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.03,0.739,0.265,25.24,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.85,0.948,0.182,8.24,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.57,0.915,0.191,7.42,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.27,0.574,0.378,19.5,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.44,0.849,0.14,22.18,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.45,0.928,0.127,8.34,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.85,0.925,0.202,5.51,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.64,0.762,0.266,16.78,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.27,0.645,0.35,19.75,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.71,0.809,0.233,14.77,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.05,0.738,0.27,20.64,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.57,0.946,0.187,6.99,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.34,0.911,0.198,5.97,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.28,0.575,0.377,16.09,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.34,0.846,0.146,18.3,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.27,0.925,0.133,6.7,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.71,0.923,0.208,4.24,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.64,0.763,0.269,14.32,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.36,0.646,0.354,15.79,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.62,0.808,0.238,12.12,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.01,0.736,0.277,17.42,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.17,0.942,0.193,5.58,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.13,0.907,0.205,4.68,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.24,0.572,0.383,12.66,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.19,0.839,0.156,14.11,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.88,0.92,0.14,5.2,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.5,0.919,0.216,3.43,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.66,0.765,0.271,11.6,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.26,0.646,0.356,12.98,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.45,0.805,0.244,9.74,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.02,0.732,0.286,13.66,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.81,0.938,0.2,4.54,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.75,0.901,0.215,3.76,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.27,0.569,0.389,10.55,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.0,0.829,0.173,11.05,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.52,0.914,0.149,4.17,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.2,0.914,0.227,2.74,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.6,0.761,0.28,9.53,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.27,0.643,0.366,10.4,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.27,0.8,0.254,7.82,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.82,0.722,0.301,11.42,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.39,0.933,0.209,4.16,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.5,0.894,0.225,3.17,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.07,0.563,0.397,8.77,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.74,0.817,0.193,8.94,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.12,0.907,0.162,3.58,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,room,30.96,0.907,0.241,2.32,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.55,0.757,0.291,8.29,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.16,0.638,0.377,8.48,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVII,18,supplement,ContextGS + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.03,0.793,0.266,6.57,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.78,0.907,0.257,4.69,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,playroom,30.91,0.911,0.261,3.32,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,30.34,0.909,0.26,4.01,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.71,0.905,0.264,3.36,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,playroom,30.66,0.909,0.268,2.39,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,30.18,0.907,0.266,2.87,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.51,0.901,0.276,2.38,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,playroom,30.49,0.901,0.282,1.7,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,30.0,0.901,0.279,2.03,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,drjohnson,29.21,0.894,0.29,1.7,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,playroom,30.33,0.901,0.292,1.25,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,29.77,0.897,0.291,1.47,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,drjohnson,28.93,0.887,0.305,1.25,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,playroom,29.98,0.896,0.303,1.01,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XVIII,18,supplement,HAC++ + SALVQ,Scaffold-GS,Deep Blending,average,29.46,0.892,0.304,1.13,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,train,22.61,0.82,0.213,5.95,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,truck,26.05,0.886,0.15,7.52,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,24.33,0.853,0.181,6.74,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,train,22.58,0.816,0.223,4.67,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.94,0.882,0.157,5.77,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,24.26,0.849,0.19,5.22,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,train,22.33,0.804,0.24,3.49,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.81,0.873,0.171,4.02,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,24.07,0.839,0.205,3.76,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,train,22.2,0.796,0.254,2.62,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.59,0.869,0.187,2.83,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,23.89,0.832,0.221,2.73,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,train,22.09,0.784,0.274,1.98,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,truck,25.36,0.859,0.208,2.19,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XIX,18,supplement,HAC++ + SALVQ,Scaffold-GS,Tanks and Temples,average,23.72,0.822,0.241,2.09,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.16,0.738,0.276,17.5,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.86,0.947,0.185,6.91,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.64,0.915,0.193,6.24,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.3,0.573,0.384,14.38,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.37,0.842,0.158,17.1,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.53,0.927,0.13,7.09,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.99,0.924,0.207,4.56,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.67,0.762,0.275,12.42,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.3,0.643,0.366,14.52,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.76,0.808,0.241,11.19,MB,,,,,,,rate-distortion sweep point lambda=0.002
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,25.07,0.731,0.291,12.74,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.55,0.944,0.19,5.32,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.42,0.91,0.202,4.75,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.29,0.569,0.392,10.76,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,27.18,0.833,0.178,12.76,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,31.27,0.923,0.137,5.25,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.77,0.92,0.217,3.45,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.59,0.759,0.285,9.36,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.33,0.639,0.379,10.42,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.61,0.803,0.252,8.31,MB,,,,,,,rate-distortion sweep point lambda=0.004
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.97,0.721,0.306,9.2,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,32.22,0.939,0.199,3.97,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,29.14,0.903,0.213,3.52,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.24,0.565,0.401,7.99,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.87,0.819,0.203,9.19,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.81,0.916,0.147,3.81,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.57,0.915,0.229,2.58,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.56,0.754,0.297,6.95,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.25,0.633,0.395,7.51,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.4,0.796,0.266,6.08,MB,,,,,,,rate-distortion sweep point lambda=0.008
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.8,0.707,0.326,6.4,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.78,0.936,0.206,3.03,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.83,0.895,0.229,2.61,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.16,0.556,0.414,5.77,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.55,0.8,0.238,6.44,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,30.33,0.908,0.162,2.77,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,room,31.25,0.908,0.244,1.88,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.46,0.745,0.316,5.01,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.21,0.623,0.414,5.34,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,27.15,0.786,0.283,4.36,MB,,,,,,,rate-distortion sweep point lambda=0.015
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bicycle,24.65,0.69,0.347,4.74,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,bonsai,31.27,0.929,0.217,2.33,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,counter,28.42,0.882,0.25,1.97,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,flowers,21.04,0.544,0.43,4.34,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,garden,26.18,0.777,0.273,4.62,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,kitchen,29.83,0.898,0.18,2.01,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,room,30.94,0.9,0.262,1.47,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,stump,26.26,0.732,0.336,3.75,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,treehill,23.12,0.61,0.435,3.88,MB,,,,,,,rate-distortion sweep point lambda=0.025
+salvq_xu_tip2025,2509.13482,Table XX,19,supplement,HAC++ + SALVQ,Scaffold-GS,Mip-NeRF 360,average,26.86,0.773,0.303,3.24,MB,,,,,,,rate-distortion sweep point lambda=0.025

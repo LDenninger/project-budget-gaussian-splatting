@@ -1,0 +1,33 @@
+# <type>: (#<issue_number>) <issue_name> - <description>.
+#
+# ---------------------------------------------------------------------------
+# <type> is EXACTLY one of:
+#     New feature
+#     Fix issue
+#     Other
+# ---------------------------------------------------------------------------
+#
+# Single-line, with a GitHub issue:
+#     New feature: (#42) Graph export - add JSON writer for the community map.
+#
+# Single-line, no GitHub issue:
+#     Other: bump ruff to 0.6 and reformat the data loaders.
+#
+# Multiline, when the change spans multiple concerns:
+#     Fix issue: (#17) Pose loader crashes on empty sequence:
+#     - Guard the empty-sequence branch before indexing.
+#     - Add a regression test covering the zero-frame case.
+#
+# ---------------------------------------------------------------------------
+# Rules
+# ---------------------------------------------------------------------------
+# - Single-line messages end with '.'; the first line of a multiline message
+#   ends with ':'.
+# - Every bullet starts with '- ' and ends with '.'.
+# - Present tense, imperative mood ("add feature", not "added feature").
+# - Keep commits atomic: one logical concern per commit. Split unrelated
+#   changes into separate commits.
+# - NEVER add trailers such as "Generated with Claude Code", author info, or
+#   co-author lines.
+#
+# Full guidance: .github/commit_convention.md

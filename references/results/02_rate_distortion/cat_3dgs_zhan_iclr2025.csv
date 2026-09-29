@@ -1,0 +1,371 @@
+source_paper,source_arxiv,source_table,source_page,table_kind,method,base_model,dataset,scene,psnr_db,ssim,lpips,size_mb,size_unit_printed,num_gaussians,fps,train_time_s,encode_time_s,decode_time_s,total_time_s,notes
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,3DGS,3DGS,Mip-NeRF 360,average,27.49,0.813,0.222,744.7,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.9,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,EAGLES,3DGS,Mip-NeRF 360,average,27.15,0.808,0.238,68.89,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,LightGaussian,3DGS,Mip-NeRF 360,average,27.0,0.799,0.249,44.54,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compact3DGS,3DGS,Mip-NeRF 360,average,27.08,0.798,0.247,48.8,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compressed3D,3DGS,Mip-NeRF 360,average,26.98,0.801,0.238,28.8,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Mip-NeRF 360,average,26.01,0.772,0.259,23.9,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Navaneet et al. (Compact3D),3DGS,Mip-NeRF 360,average,27.16,0.808,0.228,50.3,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Trimming the fat,3DGS,Mip-NeRF 360,average,27.13,0.798,0.248,20.057,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (high-rate),3DGS,Mip-NeRF 360,average,27.26,0.802,0.239,16.5,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (low-rate),3DGS,Mip-NeRF 360,average,26.79,0.791,0.258,11.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (high-rate),3DGS,Mip-NeRF 360,average,27.05,0.802,0.239,23.46,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (low-rate),3DGS,Mip-NeRF 360,average,24.43,0.683,0.406,1.71,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (high-rate),Scaffold-GS,Mip-NeRF 360,average,27.77,0.811,0.23,21.87,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (low-rate),Scaffold-GS,Mip-NeRF 360,average,26.11,0.759,0.312,5.96,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (high-rate),Scaffold-GS,Mip-NeRF 360,average,27.77,0.809,0.241,12.35,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (low-rate),Scaffold-GS,Mip-NeRF 360,average,25.82,0.73,0.362,1.72,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,3DGS,3DGS,Tanks and Temples,average,23.69,0.844,0.178,431.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,EAGLES,3DGS,Tanks and Temples,average,23.41,0.84,0.2,34.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,LightGaussian,3DGS,Tanks and Temples,average,22.83,0.822,0.242,22.43,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compact3DGS,3DGS,Tanks and Temples,average,23.32,0.831,0.201,39.43,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compressed3D,3DGS,Tanks and Temples,average,23.32,0.832,0.194,17.28,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Tanks and Temples,average,22.78,0.817,0.211,13.05,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Navaneet et al. (Compact3D),3DGS,Tanks and Temples,average,23.47,0.84,0.188,27.97,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Trimming the fat,3DGS,Tanks and Temples,average,23.68,0.831,0.21,8.555,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (high-rate),3DGS,Tanks and Temples,average,23.7,0.835,0.205,9.61,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (low-rate),3DGS,Tanks and Temples,average,23.105,0.815,0.235,5.89,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (high-rate),3DGS,Tanks and Temples,average,23.34,0.835,0.195,12.02,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (low-rate),3DGS,Tanks and Temples,average,22.09,0.755,0.318,1.32,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (high-rate),Scaffold-GS,Tanks and Temples,average,24.4,0.853,0.177,11.24,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (low-rate),Scaffold-GS,Tanks and Temples,average,23.11,0.809,0.238,3.68,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (high-rate),Scaffold-GS,Tanks and Temples,average,24.41,0.853,0.189,6.93,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (low-rate),Scaffold-GS,Tanks and Temples,average,22.97,0.786,0.293,1.42,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,3DGS,3DGS,Deep Blending,average,29.42,0.899,0.247,663.9,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,EAGLES,3DGS,Deep Blending,average,29.91,0.91,0.25,62.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,LightGaussian,3DGS,Deep Blending,average,27.01,0.872,0.308,33.94,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compact3DGS,3DGS,Deep Blending,average,29.79,0.901,0.258,43.21,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compressed3D,3DGS,Deep Blending,average,29.38,0.898,0.253,25.3,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Morgenstern et al. (Self-Organizing Gaussians),3DGS,Deep Blending,average,28.92,0.891,0.276,8.4,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Navaneet et al. (Compact3D),3DGS,Deep Blending,average,29.75,0.903,0.247,42.77,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Trimming the fat,3DGS,Deep Blending,average,29.42,0.897,0.267,12.49,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (high-rate),3DGS,Deep Blending,average,29.33,0.9,0.27,10.4,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CompGS (low-rate),3DGS,Deep Blending,average,28.99,0.9,0.28,7.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (high-rate),3DGS,Deep Blending,average,29.63,0.902,0.252,18.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,RDO-Gaussian (low-rate),3DGS,Deep Blending,average,28.38,0.872,0.331,1.22,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (high-rate),Scaffold-GS,Deep Blending,average,30.34,0.906,0.258,6.35,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (low-rate),Scaffold-GS,Deep Blending,average,28.62,0.888,0.302,2.64,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (high-rate),Scaffold-GS,Deep Blending,average,30.29,0.909,0.269,3.56,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (low-rate),Scaffold-GS,Deep Blending,average,28.53,0.878,0.336,0.93,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,3DGS,3DGS,BungeeNeRF,average,24.87,0.841,0.205,1616,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Scaffold-GS,Scaffold-GS,BungeeNeRF,average,26.62,0.865,0.241,183.0,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,EAGLES,3DGS,BungeeNeRF,average,25.24,0.843,0.221,117.1,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,LightGaussian,3DGS,BungeeNeRF,average,24.52,0.825,0.255,87.28,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compact3DGS,3DGS,BungeeNeRF,average,23.36,0.788,0.251,82.6,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Compressed3D,3DGS,BungeeNeRF,average,24.13,0.802,0.245,55.79,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,Navaneet et al. (Compact3D),3DGS,BungeeNeRF,average,24.63,0.823,0.239,104.3,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (high-rate),Scaffold-GS,BungeeNeRF,average,27.05,0.868,0.217,26.16,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,HAC (low-rate),Scaffold-GS,BungeeNeRF,average,24.56,0.768,0.327,9.74,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (high-rate),Scaffold-GS,BungeeNeRF,average,27.35,0.886,0.183,26.59,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 6,16,main,CAT-3DGS (low-rate),Scaffold-GS,BungeeNeRF,average,25.19,0.808,0.279,10.14,MB,,,,,,,
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,25.04,0.735,0.28,21.42,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,32.98,0.947,0.192,6.06,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,29.66,0.915,0.197,6.33,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,21.41,0.58,0.375,18.92,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,27.49,0.847,0.152,18.64,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,31.34,0.926,0.135,6.92,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,31.95,0.924,0.212,4.11,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,26.79,0.766,0.271,11.23,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,23.28,0.646,0.359,17.5,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,27.77,0.809,0.241,12.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,25.16,0.738,0.28,16.56,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,32.74,0.944,0.198,4.79,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,29.51,0.911,0.203,4.98,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,21.37,0.576,0.383,14.28,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,27.3,0.84,0.164,14.55,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,30.97,0.922,0.14,5.36,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,31.73,0.921,0.221,3.22,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,26.87,0.766,0.278,8.5,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,23.27,0.642,0.37,13.2,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,27.66,0.807,0.249,9.49,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,25.03,0.728,0.302,9.4,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,31.67,0.932,0.217,2.94,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,28.89,0.898,0.225,3.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,21.25,0.564,0.403,8.13,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,26.83,0.816,0.21,8.65,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,30.37,0.911,0.16,3.32,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,31.24,0.911,0.243,2.06,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,26.62,0.752,0.309,4.45,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,23.22,0.629,0.4,7.17,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,27.24,0.793,0.274,5.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,24.8,0.714,0.323,6.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,31.25,0.927,0.227,2.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,28.51,0.886,0.244,2.45,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,21.12,0.552,0.419,6.13,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,26.56,0.803,0.231,6.82,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,29.9,0.902,0.174,2.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,30.9,0.902,0.262,1.6,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,26.38,0.736,0.333,3.25,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,23.08,0.616,0.423,5.13,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,26.94,0.782,0.293,4.1,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,24.38,0.676,0.368,3.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,29.99,0.905,0.26,1.58,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,27.63,0.86,0.285,1.49,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,20.74,0.519,0.455,3.32,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,25.81,0.755,0.304,3.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,28.76,0.878,0.216,1.53,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,30.19,0.887,0.292,1.05,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,25.64,0.69,0.389,1.83,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,22.84,0.58,0.472,2.44,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,26.22,0.75,0.338,2.27,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bicycle,24.02,0.646,0.399,2.36,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,bonsai,29.44,0.892,0.277,1.3,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,counter,27.14,0.845,0.306,1.23,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,flowers,20.44,0.496,0.477,2.42,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,garden,25.4,0.727,0.337,3.01,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,kitchen,28.16,0.862,0.244,1.2,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,29.73,0.879,0.307,0.88,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,stump,25.3,0.666,0.415,1.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,treehill,22.71,0.558,0.499,1.74,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 7,17,supplement,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,25.82,0.73,0.362,1.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,27.57,0.908,0.148,31.98,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,28.25,0.897,0.165,25.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,25.16,0.815,0.254,24.58,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,25.82,0.864,0.214,28.83,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,30.59,0.943,0.144,21.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,26.74,0.887,0.178,27.06,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,27.35,0.886,0.184,26.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.001
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,27.52,0.903,0.159,27.33,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,28.15,0.892,0.176,22.03,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,25.12,0.808,0.268,20.95,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,25.7,0.857,0.224,24.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,30.23,0.938,0.154,17.84,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,26.57,0.881,0.19,23.17,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,27.22,0.88,0.195,22.6,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,27.28,0.897,0.169,24.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,28.13,0.888,0.181,19.41,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,25.05,0.801,0.28,18.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,25.69,0.854,0.232,21.52,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,30.04,0.934,0.163,15.89,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,26.42,0.875,0.2,20.81,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,27.1,0.875,0.204,20.14,MB,,,,,,,rate-distortion sweep point lambda_r=0.003
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,26.96,0.882,0.194,19.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,27.72,0.876,0.202,15.63,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,24.68,0.778,0.307,14.9,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,25.21,0.839,0.251,17.22,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,29.53,0.925,0.178,13.28,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,25.78,0.856,0.223,16.87,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,26.65,0.859,0.226,16.21,MB,,,,,,,rate-distortion sweep point lambda_r=0.006
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,26.32,0.863,0.215,15.96,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,27.26,0.861,0.222,12.73,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,24.41,0.757,0.325,12.71,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,24.86,0.825,0.267,14.33,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,28.84,0.914,0.197,10.68,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,25.13,0.834,0.245,13.86,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,26.14,0.842,0.245,13.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,25.65,0.833,0.253,12.33,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,bilbao,26.3,0.829,0.258,9.74,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,hollywood,23.8,0.714,0.361,9.12,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,pompidou,23.78,0.789,0.298,10.75,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,quebec,27.76,0.891,0.225,8.28,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,rome,23.85,0.79,0.283,10.63,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 8,18,supplement,CAT-3DGS,Scaffold-GS,BungeeNeRF,average,25.19,0.808,0.28,10.14,MB,,,,,,,rate-distortion sweep point lambda_r=0.02
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,22.68,0.82,0.221,6.28,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,26.14,0.885,0.157,7.57,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,24.41,0.853,0.189,6.93,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,22.45,0.817,0.226,5.06,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,25.98,0.882,0.162,5.88,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,24.22,0.85,0.194,5.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,22.31,0.802,0.249,3.43,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,25.68,0.871,0.184,3.74,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,23.99,0.837,0.217,3.58,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,22.23,0.794,0.262,2.71,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,25.55,0.866,0.195,3.0,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,23.89,0.83,0.228,2.86,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,22.01,0.769,0.295,1.8,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,24.97,0.842,0.238,1.89,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,23.49,0.806,0.266,1.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,train,21.42,0.75,0.315,1.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,truck,24.51,0.822,0.271,1.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 9,19,supplement,CAT-3DGS,Scaffold-GS,Tanks and Temples,average,22.97,0.786,0.293,1.42,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,29.67,0.906,0.266,4.27,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,30.9,0.911,0.272,2.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,30.29,0.909,0.269,3.56,MB,,,,,,,rate-distortion sweep point lambda_r=0.002
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,29.51,0.904,0.272,3.43,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,30.81,0.909,0.279,2.21,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,30.16,0.906,0.275,2.82,MB,,,,,,,rate-distortion sweep point lambda_r=0.004
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,29.23,0.898,0.288,2.12,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,30.23,0.903,0.295,1.46,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,29.73,0.9,0.292,1.79,MB,,,,,,,rate-distortion sweep point lambda_r=0.01
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,29.06,0.892,0.299,1.76,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,29.91,0.897,0.309,1.21,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,29.48,0.894,0.304,1.48,MB,,,,,,,rate-distortion sweep point lambda_r=0.015
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,28.52,0.879,0.323,1.2,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,29.19,0.887,0.331,0.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,28.85,0.883,0.327,1.03,MB,,,,,,,rate-distortion sweep point lambda_r=0.03
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,drjohnson,28.31,0.874,0.332,1.09,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,playroom,28.74,0.881,0.34,0.76,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 10,19,supplement,CAT-3DGS,Scaffold-GS,Deep Blending,average,28.53,0.878,0.336,0.93,MB,,,,,,,rate-distortion sweep point lambda_r=0.04
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.11,0.742,0.259,39.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.97,0.948,0.18,12.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.74,0.918,0.184,10.44,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.27,0.575,0.377,27.55,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.46,0.849,0.139,32.17,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.63,0.93,0.122,12.07,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.9,0.926,0.198,7.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.59,0.763,0.264,25.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.26,0.648,0.345,29.65,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.77,0.811,0.23,21.87,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.1,0.742,0.262,33.14,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.7,0.945,0.184,10.51,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.65,0.915,0.189,8.88,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.32,0.576,0.377,23.73,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.43,0.847,0.143,27.52,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.46,0.928,0.125,10.05,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.87,0.925,0.201,6.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.59,0.761,0.268,21.75,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.34,0.647,0.35,24.83,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.72,0.809,0.233,18.54,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,25.05,0.742,0.264,27.54,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,32.28,0.942,0.189,8.56,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,29.35,0.911,0.195,7.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.26,0.572,0.381,19.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,27.28,0.842,0.151,22.69,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,31.16,0.923,0.131,8.05,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.55,0.921,0.208,5.53,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.58,0.762,0.269,18.11,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.3,0.645,0.356,20.04,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.53,0.807,0.238,15.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,24.79,0.733,0.284,17.8,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,31.27,0.933,0.208,5.16,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,28.68,0.898,0.22,4.54,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,21.18,0.561,0.4,12.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,26.76,0.822,0.188,14.53,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,30.51,0.914,0.149,4.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,31.2,0.912,0.234,3.27,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.54,0.752,0.296,11.21,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.13,0.628,0.392,12.27,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,27.12,0.795,0.263,9.53,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,24.6,0.717,0.306,14.97,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,30.51,0.922,0.225,4.24,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,27.78,0.878,0.248,3.3,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,20.84,0.537,0.425,8.9,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,26.34,0.8,0.222,10.87,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,29.86,0.902,0.169,3.69,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,30.51,0.9,0.256,2.56,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,26.2,0.73,0.326,8.68,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,23.03,0.61,0.418,9.25,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,26.63,0.777,0.288,7.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bicycle,24.16,0.694,0.333,11.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,bonsai,29.63,0.909,0.242,3.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,counter,27.19,0.864,0.269,2.68,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,flowers,20.57,0.513,0.449,7.17,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,garden,25.86,0.78,0.252,8.9,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,kitchen,29.09,0.886,0.191,3.08,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,room,29.94,0.889,0.276,2.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,stump,25.77,0.707,0.358,7.03,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,treehill,22.82,0.591,0.443,7.32,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 11,20,supplement,HAC,Scaffold-GS,Mip-NeRF 360,average,26.11,0.759,0.312,5.96,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,27.25,0.886,0.19,31.84,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.98,0.886,0.19,24.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.59,0.772,0.319,23.41,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.58,0.851,0.236,29.19,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,30.3,0.934,0.163,21.23,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,26.61,0.876,0.203,26.91,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,27.05,0.868,0.217,26.16,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,27.13,0.88,0.202,27.14,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,28.02,0.88,0.205,20.91,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.43,0.763,0.33,20.09,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.27,0.842,0.249,24.85,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.98,0.929,0.175,17.9,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,26.28,0.866,0.219,23.07,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.85,0.86,0.23,22.33,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,26.95,0.873,0.214,24.41,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.82,0.872,0.218,18.76,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.27,0.753,0.342,17.87,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.34,0.837,0.255,22.49,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.67,0.924,0.185,16.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,25.98,0.855,0.231,20.83,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.67,0.852,0.241,20.08,MB,,,,,,,rate-distortion sweep point lambda_r=0.003; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,26.8,0.865,0.224,22.49,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,27.65,0.864,0.231,17.14,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,24.25,0.748,0.347,16.55,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,25.16,0.829,0.266,20.4,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,29.33,0.918,0.192,15.06,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,25.68,0.845,0.243,19.3,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,26.48,0.845,0.25,18.49,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,26.13,0.839,0.258,17.22,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,26.81,0.842,0.262,14.01,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,23.83,0.713,0.377,12.9,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,24.48,0.807,0.289,16.1,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,28.6,0.906,0.216,11.71,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,24.71,0.811,0.276,15.34,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,25.76,0.82,0.28,14.55,MB,,,,,,,rate-distortion sweep point lambda_r=0.008; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,amsterdam,25.03,0.788,0.308,11.92,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,bilbao,25.84,0.799,0.308,9.08,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,hollywood,22.92,0.64,0.425,8.38,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,pompidou,23.16,0.759,0.332,10.43,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,quebec,27.15,0.872,0.262,8.18,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,rome,23.25,0.75,0.327,10.47,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 12,21,supplement,HAC,Scaffold-GS,BungeeNeRF,average,24.56,0.768,0.327,9.74,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,26.02,0.883,0.147,12.42,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.78,0.823,0.207,10.07,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.4,0.853,0.177,11.24,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.88,0.878,0.158,9.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.19,0.815,0.216,6.94,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,24.04,0.846,0.187,8.1,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.69,0.874,0.172,7.04,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.13,0.807,0.23,5.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,23.91,0.841,0.201,6.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,25.36,0.863,0.189,5.59,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,22.02,0.795,0.25,3.97,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,23.69,0.829,0.219,4.78,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,24.96,0.853,0.208,5.04,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,21.96,0.783,0.266,3.17,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,23.46,0.818,0.237,4.1,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,truck,24.81,0.847,0.216,4.64,MB,,,,,,,rate-distortion sweep point lambda_r=0.045; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,train,21.42,0.771,0.279,2.72,MB,,,,,,,rate-distortion sweep point lambda_r=0.045; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 13,22,supplement,HAC,Scaffold-GS,Tanks and Temples,average,23.11,0.809,0.248,3.68,MB,,,,,,,rate-distortion sweep point lambda_r=0.045; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.84,0.906,0.262,5.03,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.85,0.906,0.255,7.67,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,30.34,0.906,0.258,6.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.001; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.66,0.905,0.265,4.12,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.69,0.905,0.258,6.51,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,30.17,0.905,0.262,5.32,MB,,,,,,,rate-distortion sweep point lambda_r=0.002; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.44,0.902,0.272,3.15,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.53,0.903,0.265,5.55,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,29.98,0.902,0.269,4.35,MB,,,,,,,rate-distortion sweep point lambda_r=0.004; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,30.31,0.906,0.279,2.58,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,29.34,0.901,0.275,4.23,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,29.83,0.903,0.277,3.4,MB,,,,,,,rate-distortion sweep point lambda_r=0.01; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,29.87,0.9,0.292,2.23,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,28.81,0.893,0.288,3.65,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,29.34,0.897,0.29,2.94,MB,,,,,,,rate-distortion sweep point lambda_r=0.02; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,playroom,29.26,0.893,0.302,2.01,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,drjohnson,27.97,0.883,0.302,3.26,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 14,22,supplement,HAC,Scaffold-GS,Deep Blending,average,28.62,0.888,0.302,2.64,MB,,,,,,,rate-distortion sweep point lambda_r=0.035; HAC re-run by the CAT-3DGS authors
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,bicycle,24.5,0.705,0.306,248.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,bonsai,32.7,0.946,0.185,258.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,counter,29.34,0.914,0.191,194.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,flowers,21.14,0.566,0.417,253.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,garden,27.17,0.842,0.146,271.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,kitchen,31.3,0.928,0.126,173.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,room,31.93,0.925,0.202,133.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,stump,26.27,0.784,0.284,493.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,treehill,23.19,0.642,0.41,262.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Mip-NeRF 360,average,27.5,0.806,0.252,253.89,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,truck,25.77,0.883,0.147,107.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,train,22.15,0.822,0.206,66.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Tanks and Temples,average,23.96,0.853,0.177,86.5,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,playroom,30.62,0.904,0.258,63.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,drjohnson,29.8,0.907,0.25,69.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,Deep Blending,average,30.21,0.906,0.254,66.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,amsterdam,27.16,0.898,0.188,223.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,bilbao,26.6,0.857,0.257,178.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,hollywood,24.49,0.787,0.318,155.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,pompidou,24.94,0.839,0.271,209.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,quebec,30.28,0.936,0.19,159.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,rome,26.23,0.873,0.225,174.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 15,23,supplement,Scaffold-GS,Scaffold-GS,BungeeNeRF,average,26.62,0.865,0.241,183.0,MB,,,,,,,Scaffold-GS baseline as reproduced by the CAT-3DGS authors; identical to HAC appendix Table H
+cat_3dgs_zhan_iclr2025,2503.00357,Table 2,10,main,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,room,,,,,,36500,127.0,,,13.6,,num_gaussians is the ANCHOR count; triplane base resolution B=64; decode split triplane 11.4 s / anchor attributes 2.2 s; measured on one V100
+cat_3dgs_zhan_iclr2025,2503.00357,Table 2,10,main,CAT-3DGS,Scaffold-GS,BungeeNeRF,amsterdam,,,,,,533000,83.4,,,64.4,,num_gaussians is the ANCHOR count; triplane base resolution B=128; decode split triplane 47.4 s / anchor attributes 17.0 s; measured on one V100
+cat_3dgs_zhan_iclr2025,2503.00357,Table 2,10,main,HAC,Scaffold-GS,Mip-NeRF 360,room,,,,,,228800,103.1,,,6.6,,num_gaussians is the ANCHOR count; triplane base resolution B=N/A; decode split triplane N/A s / anchor attributes  s; measured on one V100
+cat_3dgs_zhan_iclr2025,2503.00357,Table 2,10,main,HAC,Scaffold-GS,BungeeNeRF,amsterdam,,,,,,483500,77.9,,,11.3,,num_gaussians is the ANCHOR count; triplane base resolution B=N/A; decode split triplane N/A s / anchor attributes  s; measured on one V100
+cat_3dgs_zhan_iclr2025,2503.00357,Table 1,10,ablation,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,,,,,,"CARM slice ablation: 1 slices, channels per slice (50), BD-rate 0 % against the 1-slice setting; BD-rate has no column in this schema"
+cat_3dgs_zhan_iclr2025,2503.00357,Table 1,10,ablation,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,,,,,,"CARM slice ablation: 2 slices, channels per slice (25, 25), BD-rate -6.3 % against the 1-slice setting; BD-rate has no column in this schema"
+cat_3dgs_zhan_iclr2025,2503.00357,Table 1,10,ablation,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,,,,,,"CARM slice ablation: 2 slices, channels per slice (15, 35), BD-rate -8.9 % against the 1-slice setting; BD-rate has no column in this schema"
+cat_3dgs_zhan_iclr2025,2503.00357,Table 1,10,ablation,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,,,,,,"CARM slice ablation: 4 slices, channels per slice (12, 12, 13, 13), BD-rate -8.9 % against the 1-slice setting; BD-rate has no column in this schema"
+cat_3dgs_zhan_iclr2025,2503.00357,Table 1,10,ablation,CAT-3DGS,Scaffold-GS,Mip-NeRF 360,average,,,,,,,,,,,,"CARM slice ablation: 4 slices, channels per slice (5, 10, 15, 20), BD-rate -11.9 % against the 1-slice setting; BD-rate has no column in this schema"
