@@ -63,7 +63,8 @@ rules in `.claude/rules/` bind human contributors too.
 │   └── 08_09_26_14_35_literature_notes   # Per-paper reading notes and the leaderboard
 ├── submodules                            # Reference implementations, read-only
 ├── workspaces
-│   └── ldtrain                           # Run logger and web viewer, submodule
+│   ├── ldtrain                           # Run logger and web viewer, submodule
+│   └── open-splatting-viewer             # Browser viewer for splatting representations, submodule
 ├── .claude                               # Claude Code rules, skills and hooks
 └── README.md
 ```
