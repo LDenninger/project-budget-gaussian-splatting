@@ -31,3 +31,6 @@
 [submodule "workspaces/ldtrain"]
 	path = workspaces/ldtrain
 	url = git@github.com:LDenninger/ldtrain.git
+[submodule "workspaces/open-splatting-viewer"]
+	path = workspaces/open-splatting-viewer
+	url = git@github.com:LDenninger/open-splatting-viewer.git
