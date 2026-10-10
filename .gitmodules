@@ -34,3 +34,6 @@
 [submodule "workspaces/open-splatting-viewer"]
 	path = workspaces/open-splatting-viewer
 	url = git@github.com:LDenninger/open-splatting-viewer.git
+[submodule "workspaces/budgetgs"]
+	path = workspaces/budgetgs
+	url = git@github.com:Yuefan-Zhang-Liberty/budgetGS.git

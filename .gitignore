@@ -244,3 +244,4 @@ references/**/*.pdf
 !/workspaces/.gitkeep
 !/workspaces/ldtrain
 !/workspaces/open-splatting-viewer
+!/workspaces/budgetgs
