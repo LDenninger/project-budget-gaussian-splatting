@@ -47,6 +47,40 @@ Read the documents in this order:
 The project is set up for Claude Code. `.claude/CLAUDE.md` lists the skills and the rules, and the
 rules in `.claude/rules/` bind human contributors too.
 
+## 📊 Reproduce the Week-1 numbers
+
+The Week-1 acceptance loop is: train → byte ledger → real serialize → fit onto a budget.
+From a clean checkout with `workspaces/budgetgs` installed and the `main` env active:
+
+```bash
+# 1. Train a scene (30k steps, one checkpoint every 1k -> runs/<scene>/<scene>_s0/)
+cd workspaces/budgetgs
+budgetgs train --scene bicycle --steps 30000 --ckpt-every 1000
+
+# 2. K1: bytes-on-N regression + real-encode verification, one command
+python -m budgetgs.evaluation.k1 --ckpt-dir runs/bicycle/bicycle_s0 --sample 6 --out runs/analysis/k1-bicycle.json
+
+# 3. Landing: land a checkpoint on a 10 MB byte budget (real write + read-back)
+budgetgs fit --ckpt runs/bicycle/bicycle_s0/ckpt-0030000.pt --budget-mb 10
+
+# 4. Landing quality (PSNR / SSIM / LPIPS of the landed container; needs a GPU)
+python -m budgetgs.evaluation.landing --ckpt runs/bicycle/bicycle_s0/ckpt-0030000.pt \
+  --scene <mipnerf-360 scene dir> --budget-mb 10 --out runs/analysis/landing-bicycle.json
+```
+
+Recorded Week-1 results (bicycle / garden / room, 30k steps, ckpt-0030000.pt):
+
+| Check | Result |
+|---|---|
+| ledger vs real serialize | 0.27–0.47 % gap (range round-trip, 3 scenes) |
+| K1 bytes-on-N | bicycle 69.04 B/N + 2.98 MB, R² 0.9973, 2.5 % PASS · garden 68.94 B/N + 1.96 MB, R² 0.9930, 2.8 % PASS · room 58.39 B/N + 4.39 MB, R² 0.9905, 5.09 % FAIL (edge) |
+| landing @ 10 MB | bicycle 12.85 MB (floor, +28.5 %), garden 9.73 MB (−2.67 %), room 9.43 MB (−5.68 %) — all outside the 1 %/256 KiB band |
+
+The landing miss is intentional evidence: a single global block-precision actuator
+has a byte floor and only ~10 effective steps; pruning + per-group executors are
+the Week-2 program (see `docs/03-proposal-w1-update.md`). Figures:
+`workspaces/budgetgs/runs/analysis/figures/` (fig1_bytes_n, fig2_landing, fig3_psnr_n).
+
 ## 📁 Repository layout
 
 ```
